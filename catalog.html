@@ -16,7 +16,9 @@
       </a>
       <section>
         <h2>Поиск</h2>
-        <!-- Здесь будет форма Поиска-->
+        <form action="https://echo.htmlacademy.ru" method="get">
+          <input type="text" name="search" placeholder="Поиск:" aria-label="Поиск">
+        </form>
       </section>
       <ul>
         <li>
@@ -76,9 +78,62 @@
       <li>Перфораторы</li>
     </ul>
     <h2>Перфораторы</h2>
+    <div class="visually-hidden">
+      <h3>Товар добавлен в корзину!</h3>
+      <p>
+        <a href="">
+          Оформить заказ
+        </a>
+      </p>
+      <p>
+        <button type="button">
+          Продолжить покупки
+        </button>
+      </p>
+    </div>
     <section>
       <h2>Фильтр товаров</h2>
-      <!-- Здесь будет форма -->
+      <form method="get" action="https://echo.htmlacademy.ru">
+        <fieldset>
+          <legend>Производители:</legend>
+          <ul>
+            <li>
+              <input type="checkbox" name="Bosch" id="Bosch" checked>
+              <label for="Bosch">Bosch</label>
+            </li>
+            <li>
+              <input type="checkbox" name="interskol" id="interskol">
+              <label for="interskol">Интерскол</label>
+            </li>
+            <li>
+              <input type="checkbox" name="makita" id="makita" checked>
+              <label for="makita">Makita</label>
+            </li>
+            <li>
+              <input type="checkbox" name="dewalt" id="dewalt">
+              <label for="dewalt">Dewalt</label>
+            </li>
+            <li>
+              <input type="checkbox" name="hitachi" id="hitachi">
+              <label for="hitachi">Hitachi</label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>Питание:</legend>
+          <ul>
+            <li>
+              <input type="radio" name="power" value="battery" id="battery" checked>
+              <label for="battery">Аккумуляторные</label>
+            </li>
+            <li>
+              <input type="radio" name="power" value="network" id="network">
+              <label for="network">Сетевые</label>
+            </li>
+          </ul>
+        </fieldset>
+        <button type="submit">Показать</button>
+      </form>
     </section>
     <section>
       <h2>Список товаров</h2>
