@@ -17,7 +17,8 @@
       <section>
         <h2>Поиск</h2>
         <form action="https://echo.htmlacademy.ru" method="get">
-          <input type="text" name="search" placeholder="Поиск:" aria-label="Поиск">
+          <label for="search"></label>
+          <input type="search" name="search" id="search" placeholder="Поиск:" aria-label="Поиск">
         </form>
       </section>
       <ul>
@@ -56,7 +57,6 @@
           <a href="">Личный кабинет</a>
         </div>
       </div>
-
     </div>
     <nav>
       <ul>
@@ -78,19 +78,6 @@
       <li>Перфораторы</li>
     </ul>
     <h2>Перфораторы</h2>
-    <div class="visually-hidden">
-      <h3>Товар добавлен в корзину!</h3>
-      <p>
-        <a href="">
-          Оформить заказ
-        </a>
-      </p>
-      <p>
-        <button type="button">
-          Продолжить покупки
-        </button>
-      </p>
-    </div>
     <section>
       <h2>Фильтр товаров</h2>
       <form method="get" action="https://echo.htmlacademy.ru">
@@ -162,7 +149,6 @@
             <a href="">В закладки</a>
           </div>
         </li>
-
         <li>
           <a href=""><img src="img/bosch_bfg_6000.jpg" width="218px" height="170px" alt="Перфоратор Bosch"></a>
           <a href="">
@@ -177,7 +163,6 @@
             <a href="">В закладки</a>
           </div>
         </li>
-
         <li>
           <a href=""><img src="img/bosch_bfg_2000.jpg" width="218px" height="170px" alt="Перфоратор Bosch"></a>
           <a href="">
@@ -191,7 +176,6 @@
             <a href="">В закладки</a>
           </div>
         </li>
-
         <li>
           <a href=""><img src="img/bosch_bfg_3000.jpg" width="218px" height="170px" alt="Перфоратор Bosch"></a>
           <a href="">
@@ -206,7 +190,6 @@
             <a href="">В закладки</a>
           </div>
         </li>
-
         <li>
           <a href=""><img src="img/bosch_bfg_6000.jpg" width="218px" height="170px" alt="Перфоратор Bosch"></a>
           <a href="">
@@ -333,25 +316,34 @@
       </div>
     </div>
     <div>
-      <p>
+      <div>
         © 2010–2019 Компания «Техномарт»<br>
         Все права защищены
-      </p>
+      </div>
       <ul>
         <li><a href="#">Вконтакте</a></li>
         <li><a href="#">Фейсбук</a></li>
         <li><a href="#">Инстаграм</a></li>
       </ul>
-      <p>
+      <div>
         Обратная связь:<br>
         <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
-      </p>
-      <p>
-        Р.азработано - <br>
+      </div>
+      <div>
+        Разработано - <br>
         <a href="https://htmlacademy.ru">HTML Academy</a>
-      </p>
+      </div>
     </div>
   </footer>
+  <div class="visually-hidden">
+    <h3>Товар добавлен в корзину!</h3>
+    <div>
+      <a href="">Оформить заказ</a>
+    </div>
+    <div>
+      <button type="button">Продолжить покупки</button>
+    </div>
+  </div>
 </body>
 
 </html>
