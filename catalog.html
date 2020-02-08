@@ -79,24 +79,21 @@
       <li>Перфораторы</li>
     </ul>
     <h2>Перфораторы</h2>
+
     <section>
       <h3>Фильтр:</h3>
-      <h2>Цена:</h2>
-      <!--Тут будет бегунок с ценой-->
       <form action="https://echo.htmlacademy.ru" method="get">
-        <div>
-          <input type="range" name="price" min="0" max="30000" aria-label="Диапазон цен">
-        </div>
-        <div>
-          <input type="number" name="price_min" placeholder="0" aria-label="Нижняя граница цены">
-          <span>&#8212;</span>
-          <input type="number" name="price_max" placeholder="300000" aria-label="Верхняя граница цены">
-        </div>
-      </form>
-    </section>
-    <section>
-      <h2>Фильтр товаров</h2>
-      <form method="get" action="https://echo.htmlacademy.ru">
+        <fieldset>
+          <legend>Цена:</legend>
+          <div>
+            <input type="range" name="price" min="0" max="30000" aria-label="Диапазон цен">
+          </div>
+          <div>
+            <input type="number" name="price_min" placeholder="0" aria-label="Нижняя граница цены">
+            <span>—</span>
+            <input type="number" name="price_max" placeholder="300000" aria-label="Верхняя граница цены">
+          </div>
+        </fieldset>
         <fieldset>
           <legend>Производители:</legend>
           <ul>
