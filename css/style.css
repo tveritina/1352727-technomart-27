@@ -1,0 +1,293 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: normal;
+  color: black;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.purchase-nav {
+  background-color: #293449;
+  color: white;
+  font-size: 17px;
+  line-height: 18px;
+}
+
+.purchase-nav ul {
+  list-style: none;
+}
+
+.purchase-nav ul a:active {
+    opacity: 60%;
+  }
+.purchase-nav li {
+  display: inline;
+}
+
+.purchase-nav a {
+  color: white;
+}
+
+
+.logo {
+  width: 220px;
+  height: 47px;
+  text-align: center;
+  background-color: #ee3643;
+}
+
+.logo:hover,
+.company-info-button-details:hover,
+.company-info-button-feedback:hover {
+  background-color: #ca2c37;
+}
+
+.logo:active,
+.company-info-button-details:active,
+.company-info-button-feedback:active {
+  background-color: #ba2732;
+}
+
+.make-order-button {
+  width: 150px;
+  height: 42px;
+  background-color: #63a63e;
+  text-align: center;
+}
+
+.make-order-button:hover {
+  background-color: #5fbb2d;
+}
+
+.make-order-button:active {
+  background-color: #518534;
+}
+
+.make-order-button a:active {
+  opacity: 50%;
+}
+
+.contacts-nav {
+  background-color: #f4f7f9;
+  color: black;
+}
+
+.contacts-nav h1 {
+  color: #ee3643;
+  font-size: 16px;
+  line-height: 23px;
+  font-style: italic;
+}
+
+.contacts-nav-tel {
+  color: #ee3643;
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.contacts-nav-adress {
+  color: #32425c;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.contacts-nav-button {
+  color: black;
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.contacts-nav-button a {
+  color: black;
+}
+
+.contacts-nav-button a:hover {
+  color: #ee3643;
+}
+
+.contacts-nav-button a:active {
+  opacity: 30%;
+}
+
+.main-navigation {
+  font-size: 17px;
+  line-height: 17px;
+  color: #ffffff;
+  background-color: #32425c;
+  width: 940px;
+  height: 60px;
+}
+
+.main-navigation ul {
+  list-style: none;
+}
+
+.main-navigation li {
+  display: inline;
+}
+
+.main-navigation li :hover {
+  background-color: #243147;
+}
+
+.main-navigation li :active {
+  background-color: #1d2739;
+}
+
+.main-navigation a {
+  color: white;
+}
+
+.main-navigation a:active {
+  opacity: 50%;
+}
+
+.company-info p {
+  font-size: 13px;
+  line-height: 24px;
+  font-family: "PT Sans", sans-serif;
+}
+
+.company-info h3 {
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.company-info ul {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.company-info li {
+  list-style-type: none;
+}
+
+.company-info li::before {
+  content: " —";
+  color: #ee3643;
+}
+
+.company-info-button-details {
+  font-size: 14px;
+  line-height: 18px;
+  width: 220px;
+  height: 38px;
+  text-align: center;
+  background-color: #ee3643;
+  text-transform: uppercase;
+}
+
+.company-info a {
+  color: white;
+}
+
+.company-info-button-feedback {
+  font-size: 14px;
+  line-height: 18px;
+  width: 300px;
+  height: 38px;
+  background-color: #ee3643;
+  text-transform: uppercase;
+  border: none;
+  color: white;
+}
+
+.footer-nav {
+  background-color: #32425c;
+  color: #f1f5f7;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.footer-nav p a {
+  color: #f1f5f7;
+}
+
+.footer-nav-first {
+  color: white;
+}
+
+.footer-nav-first ul,
+.footer-nav-second ul {
+  list-style: none;
+}
+
+.footer-nav-first li,
+.footer-nav-second li {
+  display: inline;
+}
+
+.footer-nav-first a {
+  color: white;
+}
+
+.footer-nav-first li a:hover {
+  color: #f1f5f7;
+  text-decoration: #f1f5f7 underline;
+}
+
+.footer-nav-first li a:active {
+  opacity: 50%;
+  text-decoration: none;
+}
+
+.footer-nav-second li a:active {
+    opacity: 50%;
+    text-decoration: none;
+  }
+
+.footer-nav-second a {
+  color: #ffd180;
+}
+
+.footer-nav-second a:hover {
+  text-decoration: underline;
+  color: #ffd180;
+}
+
+.footer-bottom-nav {
+  background-color: #293449;
+  font-size: 16px;
+  line-height: 28px;
+  color: #f1f5f7;
+}
+
+.footer-bottom-nav ul {
+  list-style: none;
+}
+
+.footer-bottom-nav a {
+  color: white;
+}
+
+.footer-bottom-nav p a {
+  color: #ffd180;
+}
+
+.footer-bottom-nav a:hover {
+  color: #ee3643;
+}
+
+.footer-bottom-nav li {
+  display: inline;
+}
