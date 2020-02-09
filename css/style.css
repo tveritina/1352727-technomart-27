@@ -32,21 +32,9 @@ a {
   line-height: 18px;
 }
 
-.purchase-nav ul {
-  list-style: none;
-}
-
 .purchase-nav ul a:active {
-    opacity: 60%;
-  }
-.purchase-nav li {
-  display: inline;
+  opacity: 60%;
 }
-
-.purchase-nav a {
-  color: white;
-}
-
 
 .logo {
   width: 220px;
@@ -116,16 +104,40 @@ a {
   line-height: 21px;
 }
 
+.contacts-nav-cabinet {
+  color: #32425c;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.contacts-nav-cabinet a {
+  text-decoration: underline;
+}
+
+.contacts-nav-cabinet a:hover,
+.contacts-nav-button a:hover,
+.footer-bottom-nav a:hover {
+  color: #ee3643;
+}
+
+.contacts-nav-cabinet a:active {
+  color: #32425c;
+  opacity: 30%;
+}
+
 .contacts-nav-button a {
   color: black;
 }
 
-.contacts-nav-button a:hover {
-  color: #ee3643;
-}
-
 .contacts-nav-button a:active {
   opacity: 30%;
+}
+
+.bread-crumbs {
+  color: black;
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
 }
 
 .main-navigation {
@@ -137,14 +149,6 @@ a {
   height: 60px;
 }
 
-.main-navigation ul {
-  list-style: none;
-}
-
-.main-navigation li {
-  display: inline;
-}
-
 .main-navigation li :hover {
   background-color: #243147;
 }
@@ -153,7 +157,12 @@ a {
   background-color: #1d2739;
 }
 
-.main-navigation a {
+.main-navigation a,
+.purchase-nav a,
+.company-info a,
+.footer-nav-first,
+.footer-nav-first a,
+.footer-bottom-nav a {
   color: white;
 }
 
@@ -183,7 +192,7 @@ a {
 }
 
 .company-info li::before {
-  content: " —";
+  content: "—";
   color: #ee3643;
 }
 
@@ -195,10 +204,6 @@ a {
   text-align: center;
   background-color: #ee3643;
   text-transform: uppercase;
-}
-
-.company-info a {
-  color: white;
 }
 
 .company-info-button-feedback {
@@ -223,22 +228,23 @@ a {
   color: #f1f5f7;
 }
 
-.footer-nav-first {
-  color: white;
-}
-
 .footer-nav-first ul,
-.footer-nav-second ul {
+.footer-nav-second ul,
+.purchase-nav ul,
+.footer-bottom-nav ul,
+.bread-crumbs ul,
+.main-navigation ul,
+.catalog-items {
   list-style: none;
 }
 
 .footer-nav-first li,
-.footer-nav-second li {
+.footer-nav-second li,
+.footer-bottom-nav li,
+.purchase-nav li,
+.bread-crumbs li,
+.main-navigation li {
   display: inline;
-}
-
-.footer-nav-first a {
-  color: white;
 }
 
 .footer-nav-first li a:hover {
@@ -252,11 +258,12 @@ a {
 }
 
 .footer-nav-second li a:active {
-    opacity: 50%;
-    text-decoration: none;
-  }
+  opacity: 50%;
+  text-decoration: none;
+}
 
-.footer-nav-second a {
+.footer-nav-second a,
+.footer-bottom-nav p a {
   color: #ffd180;
 }
 
@@ -272,22 +279,51 @@ a {
   color: #f1f5f7;
 }
 
-.footer-bottom-nav ul {
-  list-style: none;
+.catalog-item-header {
+  background-color: #f2f6f8;
+  width: 940px;
+  height: 89px;
+  color: black;
+  text-transform: uppercase;
 }
 
-.footer-bottom-nav a {
+.filter {
+  color: black;
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 20px;
+  font-family: "PT Sans", sans-serif;
+}
+
+.filter legend {
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.catalog-items {
+  font-family: "PT Sans", sans-serif;
+}
+
+.catalog-items h3 {
+  color: black;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.catalog-items p {
+  color: #999999;
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: bold;
+}
+
+.catalog-items span {
   color: white;
-}
-
-.footer-bottom-nav p a {
-  color: #ffd180;
-}
-
-.footer-bottom-nav a:hover {
-  color: #ee3643;
-}
-
-.footer-bottom-nav li {
-  display: inline;
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: bold;
+  background-color: #ba2732;
+  /* Временный фон вместо картинка */
 }
