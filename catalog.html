@@ -19,14 +19,12 @@
           <img src="img/logo.svg" width="109px" height="19px" alt="Логотип интернет-магазина Техномарт">
         </div>
       </a>
-      <section>
-        <form action="https://echo.htmlacademy.ru" method="get">
-          <label for="search">
-            <input type="search" name="search" id="search" placeholder="Поиск:" aria-label="Поиск">
-          </label>
-        </form>
-      </section>
-      <ul>
+      <form action="https://echo.htmlacademy.ru" method="get">
+        <label for="search">
+          <input type="search" name="search" id="search" placeholder="Поиск:" aria-label="Поиск">
+        </label>
+      </form>
+      <ul class="purchase-nav-links">
         <li>
           <a href="">Закладки</a>
         </li>
@@ -34,9 +32,7 @@
           <a href="">Корзина</a>
         </li>
         <li>
-          <div class="make-order-button">
-            <a href="">Оформить заказ</a>
-          </div>
+          <a class="make-order-button" href="">Оформить заказ</a>
         </li>
       </ul>
     </div>
@@ -84,10 +80,7 @@
       <li><a href="">Инструмент</a></li>
       <li>Перфораторы</li>
     </ul>
-    <div class="catalog-item-header">
-      <h2>Перфораторы</h2>
-    </div>
-
+    <h2 class="catalog-item-header">Перфораторы</h2>
     <section class="filter">
       <h3>Фильтр:</h3>
       <form action="https://echo.htmlacademy.ru" method="get">
@@ -306,26 +299,24 @@
 
   <footer>
     <div class="footer-nav">
-      <div class="footer-nav-first">
-        <a href="index.html">
-          <div class="logo">
-            <img src="img/logo.svg" width="109px" height="19px" alt="Логотип интернет-магазина Техномарт">
-          </div>
-        </a>
-        <nav>
-          <ul>
-            <li><a href="">Компания</a></li>
-            <li><a href="">Новости</a></li>
-            <li><a href="catalog.html">Каталог</a></li>
-            <li><a href="">Доставка</a></li>
-            <li><a href="">Контакты</a></li>
-          </ul>
-        </nav>
-      </div>
+      <a href="index.html">
+        <div class="logo">
+          <img src="img/logo.svg" width="109px" height="19px" alt="Логотип интернет-магазина Техномарт">
+        </div>
+      </a>
+      <nav class="footer-nav-first">
+        <ul>
+          <li><a href="">Компания</a></li>
+          <li><a href="">Новости</a></li>
+          <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="">Доставка</a></li>
+          <li><a href="">Контакты</a></li>
+        </ul>
+      </nav>
       <div>
         <p>
           г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
-          <a href="tel:+78125550555">+7 (812) 555-05-55</a>
+          <a class="footer-nav-phone" href="tel:+78125550555">+7 (812) 555-05-55</a>
         </p>
         <nav class="footer-nav-second">
           <ul>
@@ -347,11 +338,11 @@
         <li><a href="#">Фейсбук</a></li>
         <li><a href="#">Инстаграм</a></li>
       </ul>
-      <p>
+      <p class="footer-bottom-nav-develop">
         Обратная связь:<br>
         <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
       </p>
-      <p>
+      <p class="footer-bottom-nav-develop">
         Разработано - <br>
         <a href="https://htmlacademy.ru">HTML Academy</a>
       </p>

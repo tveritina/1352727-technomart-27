@@ -32,7 +32,7 @@ a {
   line-height: 18px;
 }
 
-.purchase-nav ul a:active {
+.purchase-nav-links a:active {
   opacity: 60%;
 }
 
@@ -60,6 +60,7 @@ a {
   height: 42px;
   background-color: #63a63e;
   text-align: center;
+  display: inline-block;
 }
 
 .make-order-button:hover {
@@ -149,11 +150,13 @@ a {
   height: 60px;
 }
 
-.main-navigation li :hover {
+.main-navigation li:hover {
   background-color: #243147;
-}
+  display: inline-block;
+  height: 60px;
+  }
 
-.main-navigation li :active {
+.main-navigation li:active {
   background-color: #1d2739;
 }
 
@@ -224,7 +227,7 @@ a {
   line-height: 24px;
 }
 
-.footer-nav p a {
+.footer-nav-phone {
   color: #f1f5f7;
 }
 
@@ -247,23 +250,23 @@ a {
   display: inline;
 }
 
-.footer-nav-first li a:hover {
+.footer-nav-first a:hover {
   color: #f1f5f7;
   text-decoration: #f1f5f7 underline;
 }
 
-.footer-nav-first li a:active {
+.footer-nav-first a:active {
   opacity: 50%;
   text-decoration: none;
 }
 
-.footer-nav-second li a:active {
+.footer-nav-second a:active {
   opacity: 50%;
   text-decoration: none;
 }
 
 .footer-nav-second a,
-.footer-bottom-nav p a {
+.footer-bottom-nav-develop a {
   color: #ffd180;
 }
 
