@@ -41,6 +41,8 @@ a {
   height: 47px;
   text-align: center;
   background-color: #ee3643;
+  box-sizing: border-box;
+  padding: 13px;
 }
 
 .logo:hover,
@@ -61,6 +63,8 @@ a {
   background-color: #63a63e;
   text-align: center;
   display: inline-block;
+  box-sizing: border-box;
+  padding: 13px;
 }
 
 .make-order-button:hover {
@@ -113,6 +117,7 @@ a {
 
 .contacts-nav-cabinet a {
   text-decoration: underline;
+  color: #32425c;
 }
 
 .contacts-nav-cabinet a:hover,
@@ -139,6 +144,7 @@ a {
   font-size: 13px;
   line-height: 18px;
   text-transform: uppercase;
+  font-family: "PT Sans", sans-serif;
 }
 
 .main-navigation {
@@ -148,13 +154,15 @@ a {
   background-color: #32425c;
   width: 940px;
   height: 60px;
+  box-sizing: border-box;
+  padding: 5px;
 }
 
 .main-navigation li:hover {
   background-color: #243147;
   display: inline-block;
-  height: 60px;
-  }
+  box-sizing: border-box;
+}
 
 .main-navigation li:active {
   background-color: #1d2739;
@@ -207,6 +215,9 @@ a {
   text-align: center;
   background-color: #ee3643;
   text-transform: uppercase;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px;
 }
 
 .company-info-button-feedback {
