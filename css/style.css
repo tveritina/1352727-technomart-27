@@ -146,6 +146,9 @@ a {
   text-transform: uppercase;
   font-family: "PT Sans", sans-serif;
 }
+.bread-crumbs a:active {
+  color: black;
+}
 
 .main-navigation {
   font-size: 17px;
@@ -340,4 +343,54 @@ a {
   font-weight: bold;
   background-color: #ba2732;
   /* Временный фон вместо картинка */
+}
+
+.promo-block {
+  width: 300px;
+  height: 123px;
+  color: white;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.promo-block a {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  width: 135px;
+  height: 38px;
+  background-color: rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px;
+  color: white;
+}
+
+.promo-block a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.promo-block a:active {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.promo-block-stuff {
+  background-color: #ffbf47;
+}
+
+.promo-block-tool {
+  background-color: #3bbce3;
+}
+
+.promo-block-equipment {
+  background-color: #dc91d8;
+}
+
+.promo-block-sale {
+  background-color: #8ed78f;
+}
+
+.promo-block-delivery {
+  background-color: #ffc047;
 }
