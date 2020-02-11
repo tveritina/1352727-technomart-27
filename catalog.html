@@ -84,16 +84,14 @@
     <section class="filter">
       <h3>Фильтр:</h3>
       <form action="https://echo.htmlacademy.ru" method="get">
-        <fieldset>
+        <fieldset class="price-filter">
           <legend>Цена:</legend>
           <div>
             <input type="range" name="price" min="0" max="30000" aria-label="Диапазон цен">
           </div>
-          <div>
-            <input type="number" name="price_min" placeholder="0" aria-label="Нижняя граница цены">
-            <span>—</span>
-            <input type="number" name="price_max" placeholder="300000" aria-label="Верхняя граница цены">
-          </div>
+          <input type="number" name="price_min" placeholder="0" aria-label="Нижняя граница цены">
+          <span>—</span>
+          <input type="number" name="price_max" placeholder="300000" aria-label="Верхняя граница цены">
         </fieldset>
         <fieldset>
           <legend>Производители:</legend>
@@ -133,21 +131,21 @@
             </li>
           </ul>
         </fieldset>
-        <button type="submit" class="filter">Показать</button>
+        <button type="submit">Показать</button>
       </form>
     </section>
+    <div class="sort">
+      <h2>Сортировка:</h2>
+      <ul>
+        <li><a href="">По цене</a></li>
+        <li><a href="">По типу</a></li>
+        <li><a href="">По функционалу</a></li>
+        <li><a href="">▲</a></li>
+        <li><a href="">▼</a></li>
+      </ul> 
+    </div> 
     <section>
       <h2>Список товаров</h2>
-      <div>
-        <h3>Сортировка:</h3>
-        <ul>
-          <li><a href="">По цене</a></li>
-          <li><a href="">По типу</a></li>
-          <li><a href="">По функционалу</a></li>
-          <li><a href="">▲</a></li>
-          <li><a href="">▼</a></li>
-        </ul>
-      </div>
       <ul class="catalog-items">
         <li>
           <a href=""><img src="img/bosch_bfg_3000.jpg" width="218px" height="170px" alt="Перфоратор Bosch"></a>
@@ -277,14 +275,14 @@
           </div>
         </li>
       </ul>
-      <div>
+      <div class="paging">
         <a href="">1</a>
         <a href="">2</a>
         <a href="">3</a>
-        <a href="">Следующая</a>
+        <a class="next-button" href="">Следующая</a>
       </div>
     </section>
-    <section>
+    <section class="about-perforator">
       <h2>Пара слов о перфораторах</h2>
       <p>
         Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче,
