@@ -429,6 +429,10 @@ a {
 
 .popular-items {
   width: 940px;
+}
+
+.popular-items h2 {
+  width: 940px;
   height: 89px;
   background-color: #f9f5f0;
   color: #32425c;
@@ -446,7 +450,7 @@ a {
   list-style: none;
   border: solid 1px #e5e5e5;
   display: inline-block;
-  box-sizing: border-box;
+  margin: 10px;
 }
 
 .popular-items-logo li:hover {
@@ -456,4 +460,20 @@ a {
 .popular-items-logo li:active {
   box-shadow: 0px 4px 10px 0 rgba(41, 52, 73, 0.5);
   opacity: 10%;
+}
+
+.service {
+  width: 1200px;
+  height: 522px;
+  background-color: #f4f7f9;
+  font-size: 13px;
+  line-height: 24px;
+  color: black;
+  font-family: "PT Sans", sans-serif;
+}
+
+.service h2{
+  font-size: 30px;
+  line-height: 30px;
+  font-family: "Cuprum", sans-serif;
 }
