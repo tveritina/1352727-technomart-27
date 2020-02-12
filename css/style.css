@@ -13,6 +13,10 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+}
+
 .visually-hidden {
   display: none;
   position: absolute;
@@ -46,18 +50,14 @@ a {
 }
 
 .logo:hover,
-.company-info-button-details:hover,
 .company-info-button-feedback:hover,
-.promo-block-slider-button:hover,
-.popular-items-button:hover {
+.red-button:hover {
   background-color: #ca2c37;
 }
 
 .logo:active,
-.company-info-button-details:active,
 .company-info-button-feedback:active,
-.promo-block-slider-button:active,
-.popular-items-button:active {
+.red-button:active {
   background-color: #ba2732;
 }
 
@@ -114,7 +114,6 @@ a {
 }
 
 .contacts-nav-cabinet {
-  color: #32425c;
   font-size: 16px;
   line-height: 18px;
 }
@@ -150,6 +149,7 @@ a {
   text-transform: uppercase;
   font-family: "PT Sans", sans-serif;
 }
+
 .bread-crumbs a:active {
   color: black;
 }
@@ -175,12 +175,7 @@ a {
   background-color: #1d2739;
 }
 
-.main-navigation a,
-.purchase-nav a,
-.company-info a,
-.footer-nav-first,
-.footer-nav-first a,
-.footer-bottom-nav a {
+.white-links a {
   color: white;
 }
 
@@ -205,26 +200,14 @@ a {
   line-height: 20px;
 }
 
-.company-info li {
-  list-style-type: none;
-}
-
 .company-info li::before {
   content: "—";
   color: #ee3643;
 }
 
 .company-info-button-details {
-  font-size: 14px;
-  line-height: 18px;
   width: 220px;
   height: 38px;
-  text-align: center;
-  background-color: #ee3643;
-  text-transform: uppercase;
-  display: inline-block;
-  box-sizing: border-box;
-  padding: 10px;
 }
 
 .company-info-button-feedback {
@@ -239,31 +222,25 @@ a {
 }
 
 .promo-block-slider-button {
-  font-size: 14px;
-  line-height: 18px;
   width: 195px;
   height: 38px;
+}
+
+.red-button {
+  font-size: 14px;
+  line-height: 18px;
   text-align: center;
   background-color: #ee3643;
   text-transform: uppercase;
   display: inline-block;
   box-sizing: border-box;
-  padding: 10px;
   color: white;
+  padding: 10px;
 }
 
 .popular-items-button {
-  font-size: 14px;
-  line-height: 18px;
   width: 253px;
   height: 38px;
-  text-align: center;
-  background-color: #ee3643;
-  text-transform: uppercase;
-  display: inline-block;
-  box-sizing: border-box;
-  padding: 10px;
-  color: white;
 }
 
 .footer-nav {
@@ -277,39 +254,16 @@ a {
   color: #f1f5f7;
 }
 
-.footer-nav-first ul,
-.footer-nav-second ul,
-.purchase-nav ul,
-.footer-bottom-nav ul,
-.bread-crumbs ul,
-.main-navigation ul,
-.catalog-items,
-.filter ul,
-.sort ul {
-  list-style: none;
-}
-
-.footer-nav-first li,
-.footer-nav-second li,
-.footer-bottom-nav li,
-.purchase-nav li,
-.bread-crumbs li,
-.main-navigation li,
-.sort li {
+.inline-list li {
   display: inline;
 }
 
 .footer-nav-first a:hover {
   color: #f1f5f7;
-  text-decoration: #f1f5f7 underline;
+  text-decoration: underline;
 }
 
-.footer-nav-first a:active {
-  opacity: 50%;
-  text-decoration: none;
-}
-
-.footer-nav-second a:active {
+.footer-nav a:active {
   opacity: 50%;
   text-decoration: none;
 }
@@ -540,7 +494,7 @@ a {
   background-color: #f7f3ec;
 }
 
-.sort h2 {
+.sort h3 {
   font-size: 13px;
   line-height: 18px;
   display: inline;
@@ -558,15 +512,14 @@ a {
 }
 
 .sort a:hover {
- color: rgba(0, 0, 0, 1);
- text-decoration-color: #ee3643;
- text-decoration-style: solid;
- text-decoration-line: underline;
+  color: rgba(0, 0, 0, 1);
+  text-decoration-style: solid;
+  text-decoration-line: underline;
 }
 
 .sort a:active {
- color: #ee3643;
- text-decoration-line: none;
+  color: #ee3643;
+  text-decoration-line: none;
 }
 
 .paging a {
@@ -604,7 +557,7 @@ a {
   background-color: #ffffff;
 }
 
-.about-perforator {  
+.about-perforator {
   width: 1200px;
   height: 261px;
   background-color: #f4f7f9;
