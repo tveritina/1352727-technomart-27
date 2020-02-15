@@ -7,6 +7,13 @@ body {
   font-weight: normal;
   color: black;
   background-color: white;
+  min-width: 1200px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 a {
@@ -15,6 +22,15 @@ a {
 
 ul {
   list-style: none;
+}
+
+.header-container {
+  background-color: #f4f7f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 320px;
 }
 
 .visually-hidden {
@@ -33,11 +49,33 @@ ul {
   background-color: #293449;
   color: white;
   font-size: 17px;
-  line-height: 18px;
+  line-height: 42px;
+  width: 1200px;
+  height: 42px;
+  display: flex;
+  padding-left: 130px;
+  padding-right: 130px;
+  vertical-align: middle;
+}
+
+.purchase-nav-links {
+  margin: 0;
+  margin-left: auto;
+}
+
+.purchase-nav-links a {
+  width: 150px;
+  height: 42px;
+  display: inline-block;
+  box-sizing: border-box;
 }
 
 .purchase-nav-links a:active {
   opacity: 60%;
+}
+
+.purchase-nav form {
+  margin-left: 17px;
 }
 
 .logo {
@@ -45,8 +83,10 @@ ul {
   height: 47px;
   text-align: center;
   background-color: #ee3643;
-  box-sizing: border-box;
-  padding: 13px;
+}
+
+.logo a {
+  line-height: 47px;
 }
 
 .logo:hover,
@@ -62,13 +102,8 @@ ul {
 }
 
 .make-order-button {
-  width: 150px;
-  height: 42px;
   background-color: #63a63e;
   text-align: center;
-  display: inline-block;
-  box-sizing: border-box;
-  padding: 13px;
 }
 
 .make-order-button:hover {
@@ -84,8 +119,11 @@ ul {
 }
 
 .contacts-nav {
-  background-color: #f4f7f9;
   color: black;
+  width: 940px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .contacts-nav h1 {
@@ -93,34 +131,65 @@ ul {
   font-size: 16px;
   line-height: 23px;
   font-style: italic;
+  margin-left: 53px;
 }
 
 .contacts-nav-tel {
   color: #ee3643;
   font-size: 21px;
-  line-height: 21px;
+  line-height: 45px;
+  width: 270px;
+  height: 45px;
+  border: solid 3px #ffffff;
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .contacts-nav-adress {
   color: #32425c;
   font-size: 14px;
-  line-height: 24px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
 
 .contacts-nav-button {
+  background-color: #ffffff;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 299px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  vertical-align: middle;
   color: black;
   font-size: 21px;
-  line-height: 21px;
+}
+
+.login-back {
+  width: 121px;
+  height: 45px;
+}
+
+.register-back {
+  width: 150px;
+  height: 45px;
+  margin-left: 10px;
 }
 
 .contacts-nav-cabinet {
   font-size: 16px;
   line-height: 18px;
+  margin-top: 10px;
 }
 
 .contacts-nav-cabinet a {
   text-decoration: underline;
   color: #32425c;
+  margin-right: 16px;
+  margin-left: 16px;
 }
 
 .contacts-nav-cabinet a:hover,
@@ -155,20 +224,35 @@ ul {
 }
 
 .main-navigation {
-  font-size: 17px;
-  line-height: 17px;
+  font-size: 17px; 
   color: #ffffff;
   background-color: #32425c;
   width: 940px;
   height: 60px;
+  margin-bottom: 60px;
+  line-height: 60px;
+}
+
+.main-navigation ul {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.main-navigation a {
+  display: inline-block;
   box-sizing: border-box;
-  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .main-navigation li:hover {
   background-color: #243147;
   display: inline-block;
-  box-sizing: border-box;
 }
 
 .main-navigation li:active {
@@ -233,7 +317,6 @@ ul {
   background-color: #ee3643;
   text-transform: uppercase;
   display: inline-block;
-  box-sizing: border-box;
   color: white;
   padding: 10px;
 }
@@ -291,7 +374,6 @@ ul {
   height: 89px;
   color: #32425c;
   text-transform: uppercase;
-  box-sizing: border-box;
   padding: 30px;
   font-size: 30px;
   line-height: 30px;
@@ -399,7 +481,6 @@ ul {
   background-color: rgba(0, 0, 0, 0.1);
   text-align: center;
   display: inline-block;
-  box-sizing: border-box;
   padding: 10px;
   color: white;
 }
@@ -444,7 +525,6 @@ ul {
   font-size: 30px;
   line-height: 30px;
   text-transform: uppercase;
-  box-sizing: border-box;
   padding: 30px;
 }
 
@@ -532,7 +612,6 @@ ul {
   font-size: 13px;
   line-height: 18px;
   font-family: "PT Sans", sans-serif;
-  box-sizing: border-box;
   display: inline-block;
   text-align: center;
   padding: 10px;
@@ -578,7 +657,6 @@ ul {
   width: 122px;
   height: 38px;
   text-align: center;
-  box-sizing: border-box;
   padding: 10px;
   margin-top: 17px;
   color: white;
