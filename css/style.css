@@ -527,6 +527,10 @@ ul {
   flex-wrap: wrap;
 }
 
+.catalog-container .catalog-items {
+  width: 700px;
+}
+
 .catalog-items h3 {
   color: black;
   font-size: 18px;
