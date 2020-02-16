@@ -679,6 +679,7 @@ ul {
   font-size: 30px;
   margin: 0px;
   font-family: "Cuprum", sans-serif;
+  text-transform: uppercase;
 }
 
 .service-container {
@@ -760,19 +761,21 @@ ul {
 }
 
 .about-perforator {
-  width: 1200px;
   height: 261px;
   background-color: #f4f7f9;
   font-size: 13px;
   line-height: 24px;
+  padding-top: 68px;
   color: black;
   font-family: "PT Sans", sans-serif;
 }
 
-.about-perforator h2 {
+.about-perforator h3 {
   font-size: 30px;
   line-height: 30px;
+  margin: 0px;
   font-family: "Cuprum", sans-serif;
+  text-transform: uppercase;
 }
 
 .arrow {
