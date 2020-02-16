@@ -159,13 +159,16 @@ ul {
   background-color: #ffffff;
   display: inline-block;
   box-sizing: border-box;
-  width: 299px;
-  height: 45px;
   line-height: 45px;
   text-align: center;
   vertical-align: middle;
   color: black;
   font-size: 21px;
+}
+
+.logged-user {
+  width: 299px;
+  height: 45px;
 }
 
 .login-back {
@@ -224,7 +227,7 @@ ul {
 }
 
 .main-navigation {
-  font-size: 17px; 
+  font-size: 17px;
   color: #ffffff;
   background-color: #32425c;
   width: 940px;
@@ -308,6 +311,9 @@ ul {
 .promo-block-slider-button {
   width: 195px;
   height: 38px;
+  position: relative;
+  left: 25px;
+  bottom: 60px;
 }
 
 .red-button {
@@ -324,6 +330,9 @@ ul {
 .popular-items-button {
   width: 253px;
   height: 38px;
+  position: relative;
+  left: 663px;
+  bottom: 63px;
 }
 
 .footer-nav {
@@ -439,6 +448,10 @@ ul {
 
 .catalog-items {
   font-family: "PT Sans", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  margin-top: 21px;
 }
 
 .catalog-items h3 {
@@ -462,6 +475,42 @@ ul {
   font-weight: bold;
   background-color: #ba2732;
   /* Временный фон вместо картинка */
+}
+
+.catalog-items li{
+border: solid 1px #eaeaea;
+text-align: center;
+}
+
+.promo {
+  display: flex;
+  width: 940px;
+  height: 520px;
+  margin: auto;
+  flex-direction: column;
+  padding-top: 59px;
+  padding-bottom: 53px;
+  align-content: space-between;
+}
+
+.promo-container-top {
+  display: flex;
+  height: 123px;
+  justify-content: space-between;
+}
+
+.promo-container-bottom {
+  display: flex;
+  height: 266px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.promo-container-bottom-right {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .promo-block {
@@ -515,6 +564,10 @@ ul {
 
 .popular-items {
   width: 940px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
 }
 
 .popular-items h2 {
@@ -526,6 +579,17 @@ ul {
   line-height: 30px;
   text-transform: uppercase;
   padding: 30px;
+  margin: 0px;
+}
+
+.popular-items-logo {
+  display: flex;
+  height: 415px;
+  justify-content: space-between;
+  padding: 0px;
+  margin: 0px;
+  padding-bottom: 85px;
+  flex-wrap: wrap;
 }
 
 .popular-items-logo li {
@@ -535,7 +599,7 @@ ul {
   list-style: none;
   border: solid 1px #e5e5e5;
   display: inline-block;
-  margin: 10px;
+  /* margin: 10px; */
 }
 
 .popular-items-logo li:hover {
@@ -665,6 +729,7 @@ ul {
   line-height: 18px;
   font-weight: bold;
   background-color: #ee3643;
+  
 }
 
 .arrow::after {

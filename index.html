@@ -46,9 +46,9 @@
         <a href="tel:+78125550555" class="contacts-nav-tel">+7 (812) 555-05-55</a>
         <p class="contacts-nav-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
       </div>
-      <div class="contacts-nav-button">
-        <a href="" class="login-back">Войти</a>
-        <a href="" class="register-back">Регистрация</a>
+      <div>
+        <a href="" class="login-back contacts-nav-button">Войти</a>
+        <a href="" class="register-back contacts-nav-button">Регистрация</a>
       </div>
     </div>
     <nav class="main-navigation white-links">
@@ -64,9 +64,9 @@
     </nav>
   </header>
   <main>
-    <section>
-      <h2>Промо-блок</h2>
-      <div>
+    <section class="promo">
+      <h2 class="visually-hidden">Промо-блок</h2>
+      <div class="promo-container-top">
         <div class="promo-block promo-block-stuff">
           <h3>Материалы</h3>
           <a href="">На любой вкус</a>
@@ -80,13 +80,13 @@
           <a href="">Для стройки</a>
         </div>
       </div>
-      <div>
+      <div class="promo-container-bottom">
         <div>
           <!-- Здесь будет слайдер -->
           <img src="img/slider-image.jpg" width="620px" height="266px" alt="Дрели. Соседям на радость">
           <a class="red-button promo-block-slider-button" href="">Открыть каталог</a>
         </div>
-        <div>
+        <div class="promo-container-bottom-right">
           <div class="promo-block promo-block-sale">
             <h3>Скидки 50%</h3>
             <a href="">На 350 товаров</a>
@@ -113,7 +113,7 @@
             <p><s>32 500 Р.</s></p>
             <div class="arrow">25 500 Р.</div>
             <img src="" alt="new">
-            <div>
+            <div class="visually-hidden">
               <a href="">Купить</a>
               <a href="">В закладки</a>
             </div>
@@ -128,7 +128,7 @@
             <p><s>22 500 Р.</s></p>
             <div class="arrow">15 500 Р.</div>
             <img src="" alt="new">
-            <div>
+            <div class="visually-hidden">
               <a href="">Купить</a>
               <a href="">В закладки</a>
             </div>
@@ -143,7 +143,7 @@
             <p><s>30 500 Р.</s></p>
             <div class="arrow">25 500 Р.</div>
             <img src="" alt="new">
-            <div>
+            <div class="visually-hidden">
               <a href="">Купить</a>
               <a href="">В закладки</a>
             </div>
@@ -157,7 +157,7 @@
             </a>
             <div class="arrow">15 500 Р.</div>
             <img src="" alt="new">
-            <div>
+            <div class="visually-hidden">
               <a href="">Купить</a>
               <a href="">В закладки</a>
             </div>
@@ -167,7 +167,7 @@
     </section>
     <section class="popular-items">
       <h2>Популярные производители:</h2>
-      <a class="popular-items-button" href="">Все производители</a>
+      <a class="red-button  popular-items-button" href="">Все производители</a>
       <ul class="popular-items-logo">
         <li><a href=""><img src="img/bosch.png" width="126px" height="37px" alt="Bosch"></a></li>
         <li><a href=""><img src="img/makita.png" width="123px" height="40px" alt="Takita"></a></li>
