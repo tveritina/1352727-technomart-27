@@ -270,16 +270,36 @@ ul {
   opacity: 50%;
 }
 
+.company-info {
+display: flex;
+height: 536px;
+width: 940px;
+margin: auto;
+padding-top: 82px;
+justify-content: space-between;
+}
+
+.company-info div:nth-child(0) {
+  width: 519px;
+}
+
+.company-info div:nth-child(1) {
+  width: 300px;
+}
+
 .company-info p {
   font-size: 13px;
   line-height: 24px;
   font-family: "PT Sans", sans-serif;
+  margin-top: 36px;
+  margin-bottom: 0px;
 }
 
 .company-info h3 {
   font-size: 30px;
   line-height: 30px;
   text-transform: uppercase;
+  margin: 0px;
 }
 
 .company-info ul {
@@ -287,9 +307,18 @@ ul {
   line-height: 20px;
 }
 
+.company-info li{
+  margin-bottom: 24px;
+}
+
 .company-info li::before {
   content: "—";
   color: #ee3643;
+}
+
+.company-info img{
+  margin-top: 36px;
+  margin-bottom: 40px;
 }
 
 .company-info-button-details {
@@ -588,7 +617,7 @@ text-align: center;
   justify-content: space-between;
   padding: 0px;
   margin: 0px;
-  padding-bottom: 85px;
+  padding-bottom: 75px;
   flex-wrap: wrap;
 }
 
@@ -599,7 +628,6 @@ text-align: center;
   list-style: none;
   border: solid 1px #e5e5e5;
   display: inline-block;
-  /* margin: 10px; */
 }
 
 .popular-items-logo li:hover {
@@ -612,19 +640,24 @@ text-align: center;
 }
 
 .service {
-  width: 1200px;
   height: 522px;
   background-color: #f4f7f9;
   font-size: 13px;
   line-height: 24px;
   color: black;
+  padding-top: 68px;
   font-family: "PT Sans", sans-serif;
 }
 
-.service h2 {
+.service h3 {
   font-size: 30px;
-  line-height: 30px;
+  margin:0px;
   font-family: "Cuprum", sans-serif;
+}
+
+.service-container {
+  width: 940px;
+  margin: auto;
 }
 
 .sort {
