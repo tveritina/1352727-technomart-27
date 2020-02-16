@@ -271,12 +271,12 @@ ul {
 }
 
 .company-info {
-display: flex;
-height: 536px;
-width: 940px;
-margin: auto;
-padding-top: 82px;
-justify-content: space-between;
+  display: flex;
+  height: 536px;
+  width: 940px;
+  margin: auto;
+  padding-top: 82px;
+  justify-content: space-between;
 }
 
 .company-info div:nth-child(0) {
@@ -307,7 +307,7 @@ justify-content: space-between;
   line-height: 20px;
 }
 
-.company-info li{
+.company-info li {
   margin-bottom: 24px;
 }
 
@@ -316,7 +316,7 @@ justify-content: space-between;
   color: #ee3643;
 }
 
-.company-info img{
+.company-info img {
   margin-top: 36px;
   margin-bottom: 40px;
 }
@@ -364,11 +364,36 @@ justify-content: space-between;
   bottom: 63px;
 }
 
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  width: 940px;
+  margin: auto;
+  padding: 0px;
+}
+
+.footer-nav-flex {
+  display: flex;
+  justify-content: space-between;
+  width: 940px;
+  margin: auto;
+  padding: 0px;
+}
+
 .footer-nav {
   background-color: #32425c;
   color: #f1f5f7;
   font-size: 18px;
   line-height: 24px;
+  height: 193px;
+}
+
+.footer-nav li {
+  margin-left: 55px;
+}
+
+.footer-nav ul {
+  padding: 0px;
 }
 
 .footer-nav-phone {
@@ -404,6 +429,7 @@ justify-content: space-between;
   font-size: 16px;
   line-height: 28px;
   color: #f1f5f7;
+  height: 103px;
 }
 
 .catalog-item-header {
@@ -506,9 +532,9 @@ justify-content: space-between;
   /* Временный фон вместо картинка */
 }
 
-.catalog-items li{
-border: solid 1px #eaeaea;
-text-align: center;
+.catalog-items li {
+  border: solid 1px #eaeaea;
+  text-align: center;
 }
 
 .promo {
@@ -651,7 +677,7 @@ text-align: center;
 
 .service h3 {
   font-size: 30px;
-  margin:0px;
+  margin: 0px;
   font-family: "Cuprum", sans-serif;
 }
 
@@ -762,7 +788,6 @@ text-align: center;
   line-height: 18px;
   font-weight: bold;
   background-color: #ee3643;
-  
 }
 
 .arrow::after {
