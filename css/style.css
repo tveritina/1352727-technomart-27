@@ -80,13 +80,19 @@ ul {
 
 .logo {
   width: 220px;
-  height: 47px;
   text-align: center;
   background-color: #ee3643;
+  box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
 }
 
-.logo a {
-  line-height: 47px;
+.logo-nav {
+  height: 47px;
+  padding-top: 5px;
+}
+
+.logo-footer {
+  height: 68px;
+  padding-top: 20px;
 }
 
 .logo:hover,
@@ -538,13 +544,6 @@ ul {
   font-weight: bold;
 }
 
-.catalog-items p {
-  color: #999999;
-  font-size: 17px;
-  line-height: 18px;
-  font-weight: bold;
-}
-
 .catalog-items span {
   color: white;
   font-size: 17px;
@@ -837,7 +836,6 @@ ul {
   margin-top: -19px;
 }
 
-
 .arrow::before {
   content: attr(data-cost);
   position: absolute;
@@ -847,4 +845,4 @@ ul {
   line-height: 18px;
   font-weight: bold;
   bottom: 50px;
- }
+}
