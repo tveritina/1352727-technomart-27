@@ -440,7 +440,6 @@ ul {
   font-size: 16px;
   line-height: 28px;
   color: #f1f5f7;
-  height: 103px;
 }
 
 .catalog-item-header {
@@ -857,4 +856,32 @@ ul {
   line-height: 18px;
   font-weight: bold;
   bottom: 50px;
+}
+
+.social-button-ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 132px;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.social-button {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  background-color: #212a3a;
+  border-radius: 50%;
+}
+
+.social-button:hover,
+.social-button:focus {
+  background-color: #ee3643;
 }
