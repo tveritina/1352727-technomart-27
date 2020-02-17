@@ -570,6 +570,11 @@ ul {
   align-content: space-between;
 }
 
+.promo h3,
+.promo a {
+  margin: 0px;
+}
+
 .promo-container-top {
   display: flex;
   height: 123px;
@@ -609,6 +614,8 @@ ul {
   display: inline-block;
   padding: 10px;
   color: white;
+  border-radius: 2px;
+  margin-top: 15px;
 }
 
 .promo-block a:hover {
@@ -637,6 +644,11 @@ ul {
 
 .promo-block-delivery {
   background-color: #ffc047;
+}
+
+.promo-block-padding {
+  padding-left: 23px;
+  padding-top: 26px;
 }
 
 .popular-items {
