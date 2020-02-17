@@ -24,6 +24,10 @@ ul {
   list-style: none;
 }
 
+main {
+  padding-top: 59px;
+}
+
 .header-container {
   background-color: #f4f7f9;
   display: flex;
@@ -370,9 +374,9 @@ ul {
 .popular-items-button {
   width: 253px;
   height: 38px;
-  position: relative;
-  left: 663px;
-  bottom: 63px;
+  position: absolute;
+  right: 24px;
+  top: 25px;
 }
 
 .footer-container {
@@ -553,6 +557,10 @@ ul {
 }
 
 .catalog-items li {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
   border: solid 1px #eaeaea;
   text-align: center;
   margin-bottom: 20px;
@@ -561,12 +569,11 @@ ul {
 .promo {
   display: flex;
   width: 940px;
-  height: 520px;
+  height: 409px;
   margin: auto;
   flex-direction: column;
-  padding-top: 59px;
-  padding-bottom: 53px;
-  align-content: space-between;
+  margin-bottom: 53px;
+  justify-content: space-between;
 }
 
 .promo h3,
@@ -656,6 +663,7 @@ ul {
   margin-left: auto;
   margin-right: auto;
   flex-direction: column;
+  position: relative;
 }
 
 .popular-items h2 {
@@ -832,6 +840,7 @@ ul {
   font-weight: bold;
   background-color: #ee3643;
   margin-bottom: 21px;
+  margin-left: -10px;
 }
 
 .arrow::after {
