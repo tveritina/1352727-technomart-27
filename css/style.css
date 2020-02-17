@@ -452,6 +452,7 @@ ul {
   padding: 30px;
   font-size: 30px;
   line-height: 30px;
+  margin-bottom: 20px;
 }
 
 .catalog-container {
@@ -470,7 +471,6 @@ ul {
   font-family: "PT Sans", sans-serif;
   width: 220px;
   margin-right: 20px;
-  margin-top: 20px;
 }
 
 .filter h3 {
@@ -735,8 +735,8 @@ ul {
   font-family: "PT Sans", sans-serif;
   width: 700px;
   height: 38px;
-  margin-top: 20px;
   background-color: #f7f3ec;
+  margin-bottom: 21px;
 }
 
 .sort h3 {
