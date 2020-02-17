@@ -24,10 +24,6 @@ ul {
   list-style: none;
 }
 
-main {
-  padding-top: 59px;
-}
-
 .header-container {
   background-color: #f4f7f9;
   display: flex;
@@ -532,7 +528,7 @@ main {
   display: flex;
   justify-content: space-between;
   padding: 0px;
-  margin-top: 21px;
+  margin: 0px;
   flex-wrap: wrap;
 }
 
@@ -569,10 +565,11 @@ main {
 .promo {
   display: flex;
   width: 940px;
-  height: 409px;
+  height: 468px;
   margin: auto;
   flex-direction: column;
   margin-bottom: 53px;
+  padding-top: 59px;
   justify-content: space-between;
 }
 
@@ -676,15 +673,17 @@ main {
   text-transform: uppercase;
   padding: 30px;
   margin: 0px;
+  margin-bottom: 21px
 }
 
 .popular-items-logo {
   display: flex;
-  height: 415px;
+  height: 310px;
   justify-content: space-between;
+  align-content: space-between;
   padding: 0px;
   margin: 0px;
-  padding-bottom: 75px;
+  margin-bottom: 75px;
   flex-wrap: wrap;
 }
 
