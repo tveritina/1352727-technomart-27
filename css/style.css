@@ -821,6 +821,7 @@ ul {
   line-height: 18px;
   font-weight: bold;
   background-color: #ee3643;
+  margin-bottom: 21px;
 }
 
 .arrow::after {
@@ -835,3 +836,15 @@ ul {
   border-width: 19px;
   margin-top: -19px;
 }
+
+
+.arrow::before {
+  content: attr(data-cost);
+  position: absolute;
+  text-decoration: line-through;
+  color: #999999;
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: bold;
+  bottom: 50px;
+ }
