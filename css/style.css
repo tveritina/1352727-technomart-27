@@ -45,6 +45,14 @@ ul {
   overflow: hidden;
 }
 
+.index-main {
+  margin-top: 59px;
+}
+
+.catalog-main {
+  margin-top: 23px;
+}
+
 .purchase-nav {
   background-color: #293449;
   color: white;
@@ -225,7 +233,6 @@ ul {
   width: 940px;
   margin: auto;
   margin-bottom: 25px;
-  margin-top: 25px;
   padding: 0px;
   font-size: 13px;
   line-height: 18px;
@@ -565,11 +572,10 @@ ul {
 .promo {
   display: flex;
   width: 940px;
-  height: 468px;
+  height: 409px;
   margin: auto;
   flex-direction: column;
   margin-bottom: 53px;
-  padding-top: 59px;
   justify-content: space-between;
 }
 
