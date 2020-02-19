@@ -537,6 +537,7 @@ ul {
   padding: 0px;
   margin: 0px;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .catalog-container .catalog-items {
@@ -898,4 +899,11 @@ ul {
 .social-button:hover,
 .social-button:focus {
   background-color: #ee3643;
+}
+
+.flag {
+  width: 60px;
+  height: 59px;
+  position: absolute;
+  margin-left: 80px;
 }
