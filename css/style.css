@@ -183,6 +183,8 @@ ul {
 .logged-user {
   width: 299px;
   height: 45px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .login-back {
