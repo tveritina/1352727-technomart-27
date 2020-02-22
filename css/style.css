@@ -756,6 +756,9 @@ ul {
 }
 
 .sort {
+  display: flex;
+  align-items: center;
+  margin: auto;
   color: black;
   text-transform: uppercase;
   font-size: 13px;
@@ -771,10 +774,18 @@ ul {
   font-size: 13px;
   line-height: 18px;
   display: inline;
+  margin: 0px;
+  margin-left: 20px;
+  margin-right: 140px;
 }
 
 .sort ul {
-  display: inline;
+  display: flex;
+  justify-content: space-between;
+  width: 558px;
+  padding: 0px;
+  margin: auto;
+  margin-right: 20px;
 }
 
 .sort a {
@@ -784,10 +795,18 @@ ul {
   text-decoration-line: underline;
 }
 
+.sort a:last-child {
+  margin-left: 20px;
+}
+
 .sort a:hover {
   color: rgba(0, 0, 0, 1);
   text-decoration-style: solid;
   text-decoration-line: underline;
+}
+
+.sort li:last-child a {
+  text-decoration: none; 
 }
 
 .sort a:active {
