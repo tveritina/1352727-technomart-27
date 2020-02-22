@@ -81,19 +81,26 @@
       <li>Перфораторы</li>
     </ul>
     <h2 class="catalog-item-header">Перфораторы</h2>
-
     <div class="catalog-container">
       <section class="filter">
         <h3>Фильтр:</h3>
         <form action="https://echo.htmlacademy.ru" method="get">
-          <fieldset class="price-filter">
+          <fieldset class="filter-item">
             <legend>Цена:</legend>
-            <div>
-              <input type="range" name="price" min="0" max="30000" aria-label="Диапазон цен">
+            <div class="range-filter">
+              <div class="range-controls">
+                <div class="scale">
+                  <div class="bar"></div>
+                </div>
+                <div class="toggle"></div>
+                <div class="toggle toggle-max"></div>
+              </div>
+              <div class="price-controls">
+                <label><input name="min-price" type="number" value="0"></label>
+                <span>—</span>
+                <label><input name="max-price" type="number" value="30000"></label>
+              </div>
             </div>
-            <input type="number" name="price_min" placeholder="0" aria-label="Нижняя граница цены">
-            <span>—</span>
-            <input type="number" name="price_max" placeholder="300000" aria-label="Верхняя граница цены">
           </fieldset>
           <hr>
           <fieldset>

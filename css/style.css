@@ -494,24 +494,6 @@ ul {
   border: none;
 }
 
-.price-filter div {
-  background-color: #f7f3ec;
-  width: 220px;
-  height: 80px;
-}
-
-.price-filter input[name="price"] {
-  width: 180px;
-  height: 2px;
-}
-
-.price-filter input[name="price_min"],
-.price-filter input[name="price_max"] {
-  background-color: #f7f3ec;
-  width: 95px;
-  height: 38px;
-}
-
 .filter legend {
   font-size: 17px;
   line-height: 30px;
@@ -961,4 +943,76 @@ ul {
   color: #32425c;
   background: white;
   border-bottom-color: #63a63e;
+}
+
+.filter-item {
+  margin: 0;
+  padding: 0;
+  border: none;
+  width: 220px;
+}
+
+.range-filter {
+  width: 220px;
+}
+
+.range-controls {
+  position: relative;
+  height: 80px;
+  width: 220px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #f7f3ec;
+  margin-bottom: 9px;
+  display: flex;
+}
+
+.toggle {
+  position: absolute;
+  top: 31px;
+  width: 20px;
+  height: 20px;
+  border: 8px solid #ffffff;
+  box-shadow: 0 2px 1px 0 #cfcfcf;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #ababab;
+}
+
+.toggle-max {
+  left: 140px;
+}
+
+.price-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-controls input {
+  background-color: #f7f3ec;
+  width: 95px;
+  height: 38px;
+  text-align: center;
+  color: black;
+  border: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.scale {
+  height: 2px;
+  background: #d7dcde;
+  width: 180px;
+  margin: auto;
+}
+
+.bar {
+  width: 140px;
+  height: 2px;
+  background: #00ca74;
 }
