@@ -480,17 +480,41 @@ ul {
   margin-right: 20px;
 }
 
+.filter-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.filter ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.divider {
+  width: 220px;
+  height: 0px;
+  color: #e5e5e5;
+  border: 1px solid  #e5e5e5;
+  margin: 0px;
+  margin-bottom: 25px;
+}
+
 .filter h3 {
   font-size: 13px;
-  line-height: 18px;
+  line-height: 38px;
   height: 38px;
   margin: 0px;
+  padding-left: 18px;
+  vertical-align: middle;
   background-color: #f7f3ec;
+  margin-bottom: 20px;
 }
 
 .filter fieldset {
   padding: 0px;
   margin: 0px;
+  margin-bottom: 25px;
   border: none;
 }
 
@@ -498,6 +522,7 @@ ul {
   font-size: 17px;
   line-height: 30px;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .filter button {
@@ -510,6 +535,8 @@ ul {
   font-size: 15px;
   line-height: 20px;
   font-family: "PT Sans", sans-serif;
+  cursor: pointer;
+  margin-top: 50px;
 }
 
 .catalog-items {
