@@ -1096,6 +1096,15 @@ input[type="number"]::-webkit-outer-spin-button {
   display: flex;
   align-items: center;
   cursor: pointer;
+  opacity: 70%;
+}
+
+.aligned-filter label:hover {
+  opacity: 100%;
+}
+
+.filter-checkbox:disabled + label {
+  opacity: 40%;
 }
 
 .checkbox-filter-height {
