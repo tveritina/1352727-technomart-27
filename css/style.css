@@ -503,7 +503,7 @@ ul {
   width: 220px;
   height: 0px;
   color: #e5e5e5;
-  border: 1px solid  #e5e5e5;
+  border: 1px solid #e5e5e5;
   margin: 0px;
   margin-bottom: 25px;
 }
@@ -522,7 +522,7 @@ ul {
 .filter fieldset {
   padding: 0px;
   margin: 0px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   border: none;
 }
 
@@ -744,11 +744,11 @@ ul {
 .search {
   background-color: #293449;
   border: none;
-  color: #ffffff
+  color: #ffffff;
 }
 
 .search::placeholder {
-  color: #ffffff
+  color: #ffffff;
 }
 
 .service {
@@ -824,7 +824,7 @@ ul {
 }
 
 .sort li:last-child a {
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .sort a:active {
@@ -1079,4 +1079,31 @@ input[type="number"]::-webkit-outer-spin-button {
   width: 140px;
   height: 2px;
   background: #00ca74;
+}
+
+.filter-checkbox {
+  display: none;
+}
+
+.aligned-checkbox-filter {
+  height: 195px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.aligned-checkbox-filter label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.filter-checkbox:checked + label::before {
+  content: url(../img/checkbox-on.png);
+  margin-right: 10px;
+}
+
+.filter-checkbox + label::before {
+  content: url(../img/checkbox-off.png);
+  margin-right: 14px;
 }
