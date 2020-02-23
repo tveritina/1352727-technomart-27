@@ -368,9 +368,9 @@ ul {
 .promo-block-slider-button {
   width: 195px;
   height: 38px;
-  position: relative;
+  position: absolute;
   left: 25px;
-  bottom: 60px;
+  bottom: 22px;
 }
 
 .red-button {
@@ -638,10 +638,10 @@ ul {
 }
 
 .promo-block img {
-position: absolute;
-display: block;
-top: 35px;
-left: 193px;
+  position: absolute;
+  display: block;
+  top: 35px;
+  left: 193px;
 }
 
 .promo-block a {
@@ -1145,4 +1145,53 @@ input[type="number"]::-webkit-outer-spin-button {
 .filter-radio + label::before {
   content: url(../img/radio-off.svg);
   margin-right: 14px;
+}
+
+.promo-container-slider {
+  position: relative;
+}
+
+.promo-container-slider h3 {
+  color: white;
+  font-size: 36px;
+  line-height: 36px;
+  text-transform: uppercase;
+  display: inline-block;
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  z-index: 2;
+  left: 25px;
+  top: 27px;
+}
+
+.promo-container-slider p {
+  color: white;
+  font-size: 18px;
+  line-height: 24px;
+  display: inline-block;
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  z-index: 2;
+  left: 25px;
+  top: 65px;
+}
+
+.slider-icon {
+  width: 22px;
+  height: 40px;
+  position: absolute;
+  display: inline-block;
+  top: 114px;
+}
+
+.slider-icon-left {
+  content: url(../img/icon-left.svg);
+  left: 25px;
+}
+
+.slider-icon-right {
+  content: url(../img/icon-right.svg);
+  right: 25px;
 }
