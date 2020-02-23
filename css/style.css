@@ -975,6 +975,7 @@ left: 193px;
   position: absolute;
   margin-left: 80px;
   z-index: 2;
+  content: url(../img/new-flag.png);
 }
 
 .actions {
