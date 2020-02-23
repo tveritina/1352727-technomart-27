@@ -634,6 +634,14 @@ ul {
   color: white;
   font-size: 24px;
   line-height: 30px;
+  position: relative;
+}
+
+.promo-block img {
+position: absolute;
+display: block;
+top: 35px;
+left: 193px;
 }
 
 .promo-block a {
