@@ -1195,3 +1195,7 @@ input[type="number"]::-webkit-outer-spin-button {
   content: url(../img/icon-right.svg);
   right: 25px;
 }
+
+.slider-list-two {
+  display: none;
+}
