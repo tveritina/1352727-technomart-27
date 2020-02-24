@@ -173,8 +173,15 @@ ul {
   border: solid 3px #ffffff;
   display: inline-block;
   box-sizing: border-box;
-  text-align: center;
   vertical-align: middle;
+}
+
+.contacts-nav-tel::before {
+  width: 19px;
+  height: 19px;
+  margin-right: 40px;
+  margin-left: 15px;
+  content: url(../img/icon-phone.svg);
 }
 
 .contacts-nav-adress {
@@ -207,6 +214,13 @@ ul {
 .login-back {
   width: 121px;
   height: 45px;
+}
+
+.login-back::before {
+  width: 20px;
+  height: 17px;
+  margin-right: 14px;
+  content: url(../img/icon-login.svg)
 }
 
 .register-back {
