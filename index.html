@@ -320,25 +320,14 @@
       </div>
     </div>
   </footer>
+  <!-- Всплывающая форма с картой -->
   <div class="feedback-on-top visually-hidden">
-  <div class="map-big">
-    <div class="modal-close"></div>
-    <img src="img/map-big.png" width="940px" height="446px" alt="Карта проезда">
+    <div class="map-big">
+      <div class="modal-close"></div>
+      <img src="img/map-big.png" width="940px" height="446px" alt="Карта проезда">
+    </div>
   </div>
-</div>
-  <div class="visually-hidden">
-    <form action="https://echo.htmlacademy.ru" method="post">
-      <div>
-        <label for="reg-name">Ваше имя:</label>
-        <input id="reg-name" type="text" name="reg-name" placeholder="Имя Фамилия">
-      </div>
-      <div>
-        <button type="submit">
-          Отправить
-        </button>
-      </div>
-    </form>
-  </div>
+  <!-- Всплывающая форма обратной связи -->
   <div class="feedback-on-top visually-hidden">
     <div class="feedback">
       <div class="modal-close"></div>
@@ -361,8 +350,18 @@
       </form>
     </div>
   </div>
-  <div class="visually-hidden">
-    <img src="img/map.png" width="500px" height="200px" alt="Санкт-Петербург, ул. Большая Конюшенная, д. 19/8">
+  <!-- Всплывающая форма регистрации -->
+  <div class="feedback-on-top visually-hidden">
+    <div class="universal-modal">
+      <div class="modal-close"></div>
+      <form action="https://echo.htmlacademy.ru" method="post">
+        <div class="universal-modal-name">
+          <label for="reg-name">Ваше имя:</label><br>
+          <input id="reg-name" type="text" name="reg-name" placeholder="Имя Фамилия">
+        </div>
+        <button class="red-button send-feedback-button universal-modal-button" type="submit">Отправить</button>
+      </form>
+    </div>
   </div>
 </body>
 
