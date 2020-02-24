@@ -382,6 +382,7 @@ ul {
   display: inline-block;
   color: white;
   padding: 10px;
+  cursor: pointer;
 }
 
 .popular-items-button {
@@ -1212,4 +1213,98 @@ input[type="number"]::-webkit-outer-spin-button {
   z-index: 2;
   content: url(../img/modal-close.svg);
   cursor: pointer;
+}
+
+.feedback-on-top {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+}
+
+.feedback {
+  width: 620px;
+  height: 430px;
+  box-shadow: 0px 20px 40px 0 rgba(0, 0, 0, 0.75);
+  position: relative;
+  border-top: 7px solid #ee3643;
+  border-bottom: 112px solid #f4f4f4;
+  background-color: white;
+}
+
+.feedback label {
+  font-size: 18px;
+  line-height: 18px;
+  color: black;
+}
+
+.send-feedback-button {
+  width: 460px;
+  height: 38px;
+  border: none;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+  height: 338px;
+  width: 460px;
+  margin-top: 55px;
+  margin-bottom: 38px;
+  position: relative;
+}
+
+.feedback-form input {
+  border: solid 2px #dee3e4;
+  border-radius: 4px;
+  width: 220px;
+  height: 38px;
+}
+
+.feedback-form input::placeholder,
+.feedback-form textarea::placeholder {
+  font-size: 13px;
+  line-height: 18px;
+  color: #a9a9a9;
+  font-family: "PT Sans", sans-serif;
+  padding-left: 16px;
+}
+
+.feedback-form textarea {
+  border: solid 2px #dee3e4;
+  border-radius: 4px;
+  width: 460px;
+  height: 114px;
+  resize: none;
+}
+
+.feedback-form-contacts {
+  display: inline-block;
+  height: 64px;
+  margin: 0px;
+  margin-bottom: 22px;
+}
+
+.feedback-form-message {
+  display: inline-block;
+  height: 144px;
+  margin: 0px;
+  margin-bottom: 74px;
+}
+
+.feedback-form-email {
+  right: 0px;
+  position: absolute;
+}
+
+.feedback-form-name {
+  left: 0px;
+  position: absolute;
 }

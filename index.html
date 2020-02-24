@@ -320,10 +320,12 @@
       </div>
     </div>
   </footer>
-  <div class="map-big visually-hidden">
-    <img src="img/map-big.png" width="940px" height="446px" alt="Карта проезда">
+  <div class="feedback-on-top visually-hidden">
+  <div class="map-big">
     <div class="modal-close"></div>
+    <img src="img/map-big.png" width="940px" height="446px" alt="Карта проезда">
   </div>
+</div>
   <div class="visually-hidden">
     <form action="https://echo.htmlacademy.ru" method="post">
       <div>
@@ -337,20 +339,27 @@
       </div>
     </form>
   </div>
-  <div class="visually-hidden">
-    <form action="https://echo.htmlacademy.ru" method="post">
-      <div>
-        <label for="name">Ваше имя:</label>
-        <input id="name" type="text" name="name" placeholder="Имя Фамилия">
-        <label for="e-mail">Ваш e-mail:</label>
-        <input id="e-mail" type="email" name="e-mail" placeholder="email@example.com">
-      </div>
-      <div>
-        <label for="text">Текст письма:</label>
-        <textarea rows="10" cols="45" name="text" id="text" placeholder="В свободной форме"></textarea>
-      </div>
-      <button type="submit">Отправить</button>
-    </form>
+  <div class="feedback-on-top visually-hidden">
+    <div class="feedback">
+      <div class="modal-close"></div>
+      <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
+        <div class="feedback-form-contacts">
+          <div class="feedback-form-name">
+            <label for="name">Ваше имя:</label><br>
+            <input id="name" type="text" name="name" placeholder="Имя Фамилия">
+          </div>
+          <div class="feedback-form-email">
+            <label for="e-mail">Ваш e-mail:</label><br>
+            <input id="e-mail" type="email" name="e-mail" placeholder="email@example.com">
+          </div>
+        </div>
+        <div class="feedback-form-message">
+          <label for="text">Текст письма:</label><br>
+          <textarea rows="10" cols="45" name="text" id="text" placeholder="В свободной форме"></textarea>
+        </div>
+        <button class="red-button send-feedback-button" type="submit">Отправить</button>
+      </form>
+    </div>
   </div>
   <div class="visually-hidden">
     <img src="img/map.png" width="500px" height="200px" alt="Санкт-Петербург, ул. Большая Конюшенная, д. 19/8">
