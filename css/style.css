@@ -220,7 +220,8 @@ ul {
   width: 20px;
   height: 17px;
   margin-right: 14px;
-  content: url(../img/icon-login.svg)
+  opacity: 30%;
+  content: url(../img/icon-login.svg);
 }
 
 .register-back {
