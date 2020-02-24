@@ -185,6 +185,7 @@ ul {
   height: 45px;
   padding-left: 10px;
   padding-right: 10px;
+  cursor: pointer;
 }
 
 .login-back {
@@ -383,6 +384,22 @@ ul {
   color: white;
   padding: 10px;
   cursor: pointer;
+}
+
+.buy-order-button,
+.shopping-continue {
+  width: 220px;
+  height: 38px;
+  cursor: pointer;
+}
+
+.shopping-continue {
+  background-color: #ffffff;
+  line-height: 18px;
+  color: black;
+  font-size: 14px;
+  text-transform: uppercase;
+  border: none;
 }
 
 .popular-items-button {
@@ -1223,6 +1240,33 @@ input[type="number"]::-webkit-outer-spin-button {
   border-top: 7px solid #ee3643;
   border-bottom: 112px solid #f4f4f4;
   background-color: white;
+}
+
+.universal-modal h3 {
+  font-size: 30px;
+  line-height: 30px;
+  color: black;
+  display: inline;
+  vertical-align: middle;
+  margin: 0px;
+  margin-left: 32px;
+}
+
+.order-in-cart {
+  display: flex;
+  width: 460;
+  align-items: center;
+  margin-top: 48px;
+  margin-bottom: 86px;
+  margin-left: 80px;
+}
+
+.shopping-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 460;
+  margin-right: 80px;
+  margin-left: 80px;
 }
 
 .universal-modal-name {
