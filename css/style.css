@@ -98,7 +98,12 @@ ul {
   content: url(../img/icon-cart.svg);
 }
 
-.purchase-nav form {
+/* .purchase-nav form {
+  margin-left: 17px;
+} */
+
+.search-form {
+  display: flex;
   margin-left: 17px;
 }
 
