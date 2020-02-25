@@ -1080,7 +1080,28 @@ ul {
 .bookmark {
   color: #32425c;
   background: white;
-  border-bottom-color: #63a63e;
+}
+
+
+.bookmark:hover {
+    border: 3px solid #32425c;
+}
+
+.bookmark:active {
+  opacity: 30%;
+}
+
+
+.buy:hover {
+  background-color: #5fbb2d;
+  border: 3px solid #5fbb2d;
+  border-bottom-color: #367315;
+}
+
+.buy:active {
+  background-color: #518534;  
+  border: 3px solid #518534;
+  border-bottom-color: #518534;
 }
 
 .filter-item {
