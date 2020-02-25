@@ -1082,15 +1082,13 @@ ul {
   background: white;
 }
 
-
 .bookmark:hover {
-    border: 3px solid #32425c;
+  border: 3px solid #32425c;
 }
 
 .bookmark:active {
   opacity: 30%;
 }
-
 
 .buy:hover {
   background-color: #5fbb2d;
@@ -1099,7 +1097,7 @@ ul {
 }
 
 .buy:active {
-  background-color: #518534;  
+  background-color: #518534;
   border: 3px solid #518534;
   border-bottom-color: #518534;
 }
@@ -1399,6 +1397,18 @@ input[type="number"]::-webkit-outer-spin-button {
   border-radius: 4px;
   width: 220px;
   height: 38px;
+}
+
+.feedback-form input:hover,
+.universal-modal input:hover,
+.feedback-form textarea:hover {
+  border: solid 2px #b5b5b5;
+}
+
+.feedback-form input:focus,
+.universal-modal input:focus,
+.feedback-form textarea:focus {
+  border: solid 2px #ee3643;
 }
 
 .feedback-form input::placeholder,
