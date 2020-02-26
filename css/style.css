@@ -30,7 +30,7 @@ ul {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  height: 320px;
+  min-height: 320px;
 }
 
 .visually-hidden {
@@ -59,11 +59,13 @@ ul {
   font-size: 17px;
   line-height: 42px;
   width: 1200px;
-  height: 42px;
+  min-height: 42px;
   display: flex;
+  flex-wrap: wrap;
   padding-left: 130px;
   padding-right: 130px;
   vertical-align: middle;
+  margin-bottom: 49px;
 }
 
 .purchase-nav-links {
@@ -78,8 +80,13 @@ ul {
   box-sizing: border-box;
 }
 
+.purchase-nav-links li:hover .bookmarks::before,
+.purchase-nav-links li:hover .cart::before {
+  opacity: 100%;
+}
+
 .purchase-nav-links a:active {
-  opacity: 60%;
+  opacity: 50%;
 }
 
 .bookmarks::before {
@@ -97,10 +104,6 @@ ul {
   margin-right: 17px;
   content: url(../img/icon-cart.svg);
 }
-
-/* .purchase-nav form {
-  margin-left: 17px;
-} */
 
 .search-form {
   display: flex;
@@ -159,6 +162,7 @@ ul {
   height: 70px;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 43px;
 }
 
 .contacts-nav h1 {
@@ -324,13 +328,14 @@ ul {
   color: #ffffff;
   background-color: #32425c;
   width: 940px;
-  height: 60px;
+  min-height: 60px;
   margin-bottom: 60px;
   line-height: 60px;
 }
 
 .main-navigation ul {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-left: 25px;
   margin-right: 25px;
@@ -435,7 +440,7 @@ ul {
   height: 38px;
   position: absolute;
   left: 25px;
-  bottom: 22px;
+  bottom: 42px;
 }
 
 .red-button {
@@ -693,7 +698,7 @@ ul {
 .promo {
   display: flex;
   width: 940px;
-  height: 409px;
+  min-height: 339px;
   margin: auto;
   flex-direction: column;
   margin-bottom: 53px;
@@ -707,15 +712,16 @@ ul {
 
 .promo-container-top {
   display: flex;
-  height: 123px;
+  min-height: 123px;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .promo-container-bottom {
   display: flex;
-  height: 266px;
+  flex-wrap: wrap;
+  min-height: 266px;
   justify-content: space-between;
-  margin-top: 20px;
 }
 
 .promo-container-bottom-right {
@@ -732,6 +738,7 @@ ul {
   font-size: 24px;
   line-height: 30px;
   position: relative;
+  margin-bottom: 20px;
 }
 
 .promo-block img {
@@ -864,6 +871,14 @@ ul {
   margin-right: 15px;
   opacity: 30%;
   content: url(../img/icon-search.svg);
+}
+
+.purchase-nav form:hover::before {
+  opacity: 100%;
+}
+
+.purchase-nav form:active::before {
+  opacity: 30%;
 }
 
 .service {
@@ -1503,7 +1518,6 @@ input[type="number"]::-webkit-outer-spin-button {
 .username {
   margin-right: 19px;
 }
-
 
 .username::before {
   content: url(../img/icon-user.svg);
