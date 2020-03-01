@@ -2,16 +2,6 @@ var firstImg = document.querySelector(".slider-list-one");
 var secondtImg = document.querySelector(".slider-list-two");
 var iconArrow = document.querySelectorAll(".slider-icon");
 
-iconArrow.forEach(icon => {
-    icon.addEventListener("click", function (evt) {
-        evt.preventDefault();
-        secondtImg.classList.toggle("visually-hidden");
-        firstImg.classList.toggle("visually-hidden");
-    });
-});
-
-
-
 var deliveryItem = document.querySelector(".delivery-service");
 var guaranteeItem = document.querySelector(".guarantee-service");
 var creditItem = document.querySelector(".credit-service");
@@ -19,6 +9,15 @@ var creditItem = document.querySelector(".credit-service");
 var deliveryMenu = document.querySelector(".service-menu li:nth-child(1)");
 var guaranteeMenu = document.querySelector(".service-menu li:nth-child(2)");
 var creditMenu = document.querySelector(".service-menu li:nth-child(3)");
+
+
+iconArrow.forEach(icon => {
+    icon.addEventListener("click", function (evt) {
+        evt.preventDefault();
+        secondtImg.classList.toggle("visually-hidden");
+        firstImg.classList.toggle("visually-hidden");
+    });
+});
 
 deliveryMenu.addEventListener("click", function () {
     deliveryMenu.classList.add("service-item-active");
