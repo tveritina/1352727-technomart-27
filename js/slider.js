@@ -24,16 +24,28 @@ deliveryMenu.addEventListener("click", function () {
     deliveryMenu.classList.add("service-item-active");
     guaranteeMenu.classList.remove("service-item-active");
     creditMenu.classList.remove("service-item-active");
+    
+    deliveryItem.classList.remove("visually-hidden");
+    guaranteeItem.classList.add("visually-hidden");
+    creditItem.classList.add("visually-hidden");
 });
 
 guaranteeMenu.addEventListener("click", function () {
     guaranteeMenu.classList.add("service-item-active");
     deliveryMenu.classList.remove("service-item-active");
     creditMenu.classList.remove("service-item-active");
+
+    deliveryItem.classList.add("visually-hidden");
+    guaranteeItem.classList.remove("visually-hidden");
+    creditItem.classList.add("visually-hidden");
 });
 
 creditMenu.addEventListener("click", function () {
     creditMenu.classList.add("service-item-active");
     deliveryMenu.classList.remove("service-item-active");
     guaranteeMenu.classList.remove("service-item-active");
+    
+    deliveryItem.classList.add("visually-hidden");
+    guaranteeItem.classList.add("visually-hidden");
+    creditItem.classList.remove("visually-hidden");
 });
