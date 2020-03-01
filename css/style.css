@@ -126,6 +126,7 @@ ul {
 .company-info-button-feedback:hover,
 .red-button:hover {
   background-color: #ca2c37;
+  cursor: pointer;
 }
 
 .logo:active,
