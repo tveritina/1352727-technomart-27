@@ -190,7 +190,9 @@ ul {
   height: 19px;
   margin-right: 40px;
   margin-left: 15px;
-  content: url(../img/icon-phone.svg);
+  display: inline-block;
+  background-image: url(../img/icon-phone.svg);
+  content: "";
 }
 
 .contacts-nav-adress {
@@ -235,7 +237,9 @@ ul {
   height: 17px;
   margin-right: 14px;
   opacity: 30%;
-  content: url(../img/icon-login.svg);
+  display: inline-block;
+  background-image: url(../img/icon-login.svg);
+  content: "";
 }
 
 .login-back:hover,
@@ -1646,11 +1650,13 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .username::before {
-  content: url(../img/icon-user.svg);
   margin-right: 14px;
   width: 20px;
   height: 18px;
   opacity: 30%;
+  display: inline-block;
+  background-image: url(../img/icon-user.svg);
+  content: "";
 }
 
 @keyframes bounce {
