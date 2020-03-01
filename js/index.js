@@ -15,7 +15,7 @@ mapImage.addEventListener("click", function () {
 });
 
 feedbackButton.addEventListener("click", function () {
-    feedbackModal.classList.remove("visually-hidden");
+    feedbackModal.classList.add("modal-show");
 });
 
 registrationButton.addEventListener("click", function (evt) {
@@ -28,8 +28,9 @@ mapClose.addEventListener("click", function () {
     mapBig.classList.add("visually-hidden");
 });
 
-feedbackClose.addEventListener("click", function () {    
-    feedbackModal.classList.add("visually-hidden");
+feedbackClose.addEventListener("click", function () { 
+    feedbackModal.classList.remove("modal-show");    
+    feedbackModal.classList.add("hidden-modal"); 
 });
 
 registrationClose.addEventListener("click", function () {    
