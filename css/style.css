@@ -99,7 +99,7 @@ ul {
 .search-form {
   display: flex;
   align-items: center;
-  margin-left: 237px;
+  margin-left: 220px;
   width: 270px;
   height: 42px;
 }
@@ -857,7 +857,7 @@ ul {
   background-color: #293449;
   border: none;
   color: #ffffff;
-  width: 170px;
+  width: 220px;
   height: 42px;
 }
 
@@ -874,6 +874,7 @@ ul {
   width: 17px;
   height: 17px;
   margin-right: 15px;
+  margin-left: 17px;
   opacity: 30%;
   background-image: url(../img/icon-search.svg);
   content: "";
