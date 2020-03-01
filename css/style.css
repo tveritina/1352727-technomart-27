@@ -953,7 +953,7 @@ ul {
   flex-direction: column;
 }
 
-.sevice-menu li:hover {
+.sevice-menu .sevice-item-active {
   background-color: white;
   color: #32425c;
   box-shadow: none;
