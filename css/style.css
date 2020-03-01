@@ -903,12 +903,10 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 1px solid red;
 }
 
 .service-main {
   min-height: 96px;
-  border: 1px solid yellow;
   margin-top: 68px;
 }
 
@@ -921,7 +919,6 @@ ul {
 
 .service-items {
   min-height: 330px;
-  border: 1px solid green;
   display: flex;
   padding-top: 48px;
   position: relative;
@@ -936,7 +933,6 @@ ul {
 .sevice-menu {
   width: 240px;
   min-height: 183px;
-  border: 1px solid fuchsia;
   padding: 0px;
   margin: 0px;
 }
@@ -960,10 +956,11 @@ ul {
 .sevice-menu li:hover {
   background-color: white;
   color: #32425c;
+  box-shadow: none;
+  border: none;
 }
 
 .description-service {
-  border: 1px solid orange;
   margin-left: 80px;
   position: relative;
   z-index: 1;
@@ -978,7 +975,6 @@ ul {
 }
 
 .img-service {
-  border: 1px solid olivedrab;
   position: absolute;
   right: 0px;
   bottom: 0px;
