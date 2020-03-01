@@ -289,8 +289,8 @@
           Вы можете забрать товар сами,<br>
           заехав в наш офис:
         </p>
-        <a href=""><img src="img/map.png" width="300px" height="158px"
-            alt="Санкт-Петербург, ул. Большая Конюшенная, д. 19/8"></a><br>
+        <img class="map" src="img/map.png" width="300px" height="158px"
+            alt="Санкт-Петербург, ул. Большая Конюшенная, д. 19/8"><br>
         <button type="button" class="company-info-button-feedback">Заблудились? Напишите нам!</button>
       </div>
     </section>
@@ -365,7 +365,7 @@
     </div>
   </footer>
   <!-- Всплывающая форма с картой -->
-  <div class="feedback-on-top visually-hidden">
+  <div id="map-big" class="feedback-on-top visually-hidden">
     <div class="map-big">
       <div class="modal-close"></div>
       <img src="img/map-big.png" width="940px" height="446px" alt="Карта проезда">
@@ -407,6 +407,8 @@
       </form>
     </div>
   </div>
+  
+  <script src="js/technomart.js"></script>
 </body>
 
 </html>
