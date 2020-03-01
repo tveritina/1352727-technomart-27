@@ -929,7 +929,7 @@ ul {
 
 .service-divider {
   position: absolute;
-  left: 233px;
+  left: 230px;
   top: 0px;
 }
 
@@ -957,6 +957,11 @@ ul {
   flex-direction: column;
 }
 
+.sevice-menu li:hover {
+  background-color: white;
+  color: #32425c;
+}
+
 .description-service {
   border: 1px solid orange;
   margin-left: 80px;
@@ -976,8 +981,17 @@ ul {
   border: 1px solid olivedrab;
   position: absolute;
   right: 0px;
-  top: 69px;
+  bottom: 0px;
   z-index: 0;
+}
+
+.credit-service-button {
+  border: none;
+  width: 195px;
+  height: 38px;
+  margin-left: 80px;
+  margin-top: 31px;
+  border-radius: 2px;
 }
 
 .sort {
