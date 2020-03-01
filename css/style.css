@@ -1091,21 +1091,34 @@ ul {
 }
 
 .about-perforator {
-  height: 261px;
   background-color: #f4f7f9;
   font-size: 13px;
   line-height: 24px;
-  padding-top: 68px;
   color: black;
   font-family: "PT Sans", sans-serif;
 }
 
-.about-perforator h3 {
+.about-perforator-container {
+  min-height: 261px;
+  width: 940px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-perforator-container h3 {
   font-size: 30px;
   line-height: 30px;
   margin: 0px;
+  margin-top: 68px;
+  margin-bottom: 40px;
   font-family: "Cuprum", sans-serif;
   text-transform: uppercase;
+}
+
+.about-perforator-container p {
+  margin: 0px;
+  margin-bottom: 10px;
 }
 
 .arrow {
@@ -1429,7 +1442,7 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .map:hover {
   cursor: pointer;
-} 
+}
 
 .map-big {
   width: 940px;
