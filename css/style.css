@@ -931,14 +931,14 @@ ul {
   top: 0px;
 }
 
-.sevice-menu {
+.service-menu {
   width: 240px;
   min-height: 183px;
   padding: 0px;
   margin: 0px;
 }
 
-.sevice-menu li {
+.service-menu li {
   width: 240px;
   height: 60px;
   background-color: #32425c;
@@ -952,9 +952,10 @@ ul {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  cursor: pointer;
 }
 
-.sevice-menu .sevice-item-active {
+.service-menu .service-item-active {
   background-color: white;
   color: #32425c;
   box-shadow: none;
