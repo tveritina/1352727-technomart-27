@@ -920,11 +920,17 @@ ul {
 }
 
 .service-items {
-  height: 279px;
+  height: 330px;
   border: 1px solid green;
   display: flex;
-  align-items: center;
+  padding-top: 48px;
   position: relative;
+}
+
+.service-divider {
+  position: absolute;
+  left: 233px;
+  top: 0px;
 }
 
 .sevice-menu {
@@ -932,6 +938,7 @@ ul {
   min-height: 183px;
   border: 1px solid fuchsia;
   padding: 0px;
+  margin: 0px;
 }
 
 .sevice-menu li {
@@ -952,6 +959,8 @@ ul {
 
 .description-service {
   border: 1px solid orange;
+  margin-left: 80px;
+  z-index: 2;
 }
 
 .description-service h3 {
@@ -966,8 +975,9 @@ ul {
   border: 1px solid olivedrab;
   position: absolute;
   right: 0px;
-  top: 0px;
-}
+  bottom: 0px;
+  z-index: 1;
+  }
 
 .sort {
   display: flex;
