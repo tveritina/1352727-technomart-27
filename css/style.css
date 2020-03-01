@@ -889,25 +889,84 @@ ul {
 }
 
 .service {
-  height: 522px;
   background-color: #f4f7f9;
   font-size: 13px;
   line-height: 24px;
   color: black;
-  padding-top: 68px;
   font-family: "PT Sans", sans-serif;
 }
 
-.service h3 {
+.service-container {
+  height: 522px;
+  width: 940px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid red;
+}
+
+.service-main {
+  height: 96px;
+  border: 1px solid yellow;
+  margin-top: 68px;
+}
+
+.service-main h3 {
   font-size: 30px;
   margin: 0px;
   font-family: "Cuprum", sans-serif;
   text-transform: uppercase;
 }
 
-.service-container {
-  width: 940px;
-  margin: auto;
+.service-items {
+  height: 279px;
+  border: 1px solid green;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.sevice-menu {
+  width: 240px;
+  min-height: 183px;
+  border: 1px solid fuchsia;
+  padding: 0px;
+}
+
+.sevice-menu li {
+  width: 240px;
+  height: 60px;
+  background-color: #32425c;
+  color: white;
+  font-size: 21px;
+  line-height: 30px;
+  font-family: "Cuprum 400", sans-serif;
+  padding-left: 22px;
+  box-shadow: 0 1px 0px 0 #405069;
+  border: 1px solid #293449;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.description-service {
+  border: 1px solid orange;
+}
+
+.description-service h3 {
+  font-size: 36px;
+  line-height: 36px;
+  margin: 0px;
+  font-family: "Cuprum", sans-serif;
+  text-transform: uppercase;
+}
+
+.img-service {
+  border: 1px solid olivedrab;
+  position: absolute;
+  right: 0px;
+  top: 0px;
 }
 
 .sort {
