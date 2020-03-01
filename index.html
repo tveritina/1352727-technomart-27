@@ -290,7 +290,7 @@
           заехав в наш офис:
         </p>
         <img class="map" src="img/map.png" width="300px" height="158px"
-            alt="Санкт-Петербург, ул. Большая Конюшенная, д. 19/8"><br>
+          alt="Санкт-Петербург, ул. Большая Конюшенная, д. 19/8"><br>
         <button type="button" class="company-info-button-feedback">Заблудились? Напишите нам!</button>
       </div>
     </section>
@@ -407,8 +407,23 @@
       </form>
     </div>
   </div>
-  
-  <script src="js/technomart.js"></script>
+
+  <!-- Всплывающее окно Товар добавлен в корзину -->
+  <div id="item-in-cart" class="feedback-on-top visually-hidden">
+    <div class="universal-modal">
+      <div class="modal-close"></div>
+      <div class="order-in-cart">
+        <img src="img/modal-check.svg" width="66px" height="66px">
+        <h3>Товар добавлен в корзину!</h3>
+      </div>
+      <div class="shopping-buttons">
+        <a class="red-button buy-order-button" href="">Оформить заказ</a>
+        <button class="shopping-continue" type="button">Продолжить покупки</button>
+      </div>
+    </div>
+  </div>
+  <script src="js/index.js"></script>
+  <script src="js/buy.js"></script>
 </body>
 
 </html>

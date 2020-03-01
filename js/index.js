@@ -4,7 +4,7 @@ var registrationModal = document.querySelector("#registration");
 
 var mapClose = document.querySelector(".map-big .modal-close");
 var feedbackClose = document.querySelector(".feedback .modal-close");
-var registrationClose = document.querySelector(".universal-modal .modal-close");
+var registrationClose = document.querySelector("#registration .modal-close");
 
 var mapImage = document.querySelector(".company-info .map");
 var feedbackButton = document.querySelector(".company-info-button-feedback");
@@ -23,6 +23,7 @@ registrationButton.addEventListener("click", function (evt) {
     registrationModal.classList.remove("visually-hidden");
 });
 
+
 mapClose.addEventListener("click", function () {    
     mapBig.classList.add("visually-hidden");
 });
@@ -34,3 +35,5 @@ feedbackClose.addEventListener("click", function () {
 registrationClose.addEventListener("click", function () {    
     registrationModal.classList.add("visually-hidden");
 });
+
+
