@@ -11,13 +11,13 @@ var guaranteeMenu = document.querySelector(".service-menu li:nth-child(2)");
 var creditMenu = document.querySelector(".service-menu li:nth-child(3)");
 
 
-iconArrow.forEach(icon => {
-    icon.addEventListener("click", function (evt) {
+for (var i = 0; i < iconArrow.length; i++) {
+    iconArrow[i].addEventListener("click", function (evt) {
         evt.preventDefault();
         secondtImg.classList.toggle("visually-hidden");
         firstImg.classList.toggle("visually-hidden");
     });
-});
+}
 
 deliveryMenu.addEventListener("click", function () {
     deliveryMenu.classList.add("service-item-active");
