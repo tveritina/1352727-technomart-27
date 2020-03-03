@@ -76,6 +76,12 @@ ul {
   opacity: 50%;
 }
 
+.bookmarks,
+.cart {
+  text-align: center;
+  width: 150px;
+}
+
 .bookmarks::before {
   width: 14px;
   height: 16px;
@@ -1662,6 +1668,10 @@ input[type="number"]::-webkit-outer-spin-button {
   display: inline-block;
   background-image: url(../img/icon-user.svg);
   content: "";
+}
+
+.red-background {
+  background-color: #ee3643;
 }
 
 @keyframes bounce {
