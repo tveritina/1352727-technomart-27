@@ -801,6 +801,9 @@ ul {
 }
 
 .promo-block-stuff {
+  background: no-repeat;
+  background-image: url(../img/basket.svg);
+  background-position: 212px 30px;
   background-color: #ffbf47;
 }
 
