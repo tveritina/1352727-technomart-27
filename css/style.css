@@ -53,19 +53,22 @@ ul {
   margin-top: 23px;
 }
 
-.purchase-nav {
+.purchase-nav-container {
   background-color: #293449;
   color: white;
   font-size: 17px;
   line-height: 42px;
-  width: 1200px;
+  width: 100%;
+  margin-bottom: 45px;
+}
+
+.purchase-nav {
+  width: 940px;
   min-height: 42px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-left: 130px;
-  padding-right: 130px;
-  margin-bottom: 45px;
+  margin: auto;
 }
 
 .purchase-nav-link:hover::before {
