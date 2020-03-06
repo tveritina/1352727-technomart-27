@@ -808,18 +808,34 @@ ul {
 }
 
 .promo-block-tool {
+  background: no-repeat;
+  background-image: url(../img/drill.svg);
+  background-size: 75px 61px;
+  background-position: 196px 32px;
   background-color: #3bbce3;
 }
 
 .promo-block-equipment {
+  background: no-repeat;
+  background-image: url(../img/tractor.svg);
+  background-size: 78px 62px;
+  background-position: 190px 30px;
   background-color: #dc91d8;
 }
 
 .promo-block-sale {
+  background: no-repeat;
+  background-image: url(../img/truck.svg);
+  background-size: 59px 72px;
+  background-position: 195px 25px;
   background-color: #8ed78f;
 }
 
 .promo-block-delivery {
+  background: no-repeat;
+  background-image: url(../img/car.svg);
+  background-size: 78px 63px;
+  background-position: 190px 30px;
   background-color: #ffc047;
 }
 
