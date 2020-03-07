@@ -1539,7 +1539,7 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .slider-radio-buttons {
   position: absolute;
-  bottom: 36px;
+  bottom: 25px;
   left: 295px;
 }
 
@@ -1550,6 +1550,7 @@ input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   -moz-appearance: none;
   cursor: pointer;
+  outline: none;
 }
 
 .slider-radio-buttons input::before {
@@ -1570,6 +1571,10 @@ input[type="number"]::-webkit-outer-spin-button {
   border-radius: 50%;
   background-color: #ee3643;
   transform: translate(-50%, -50%);
+}
+
+.slider-radio-buttons input:nth-child(1) {
+  margin-right: 10px;
 }
 
 .map:hover {
