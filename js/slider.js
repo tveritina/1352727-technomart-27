@@ -6,9 +6,9 @@ var deliveryItem = document.querySelector(".delivery-service");
 var guaranteeItem = document.querySelector(".guarantee-service");
 var creditItem = document.querySelector(".credit-service");
 
-var deliveryMenu = document.querySelector(".service-menu li:nth-child(1) button");
-var guaranteeMenu = document.querySelector(".service-menu li:nth-child(2) button");
-var creditMenu = document.querySelector(".service-menu li:nth-child(3) button");
+var deliveryMenu = document.querySelector(".service-menu button:nth-child(1)");
+var guaranteeMenu = document.querySelector(".service-menu button:nth-child(2)");
+var creditMenu = document.querySelector(".service-menu button:nth-child(3)");
 
 
 for (var i = 0; i < iconArrow.length; i++) {
