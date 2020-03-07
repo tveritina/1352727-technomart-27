@@ -988,21 +988,20 @@ ul {
   margin: 0px;
 }
 
-.service-menu li {
+.service-menu button {
   width: 240px;
   height: 60px;
   background-color: #32425c;
   color: white;
   font-size: 21px;
   line-height: 30px;
+  text-align: left;
   font-family: "Cuprum 400", sans-serif;
   padding-left: 22px;
   box-shadow: 0 1px 0px 0 #405069;
   border: 1px solid #293449;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   cursor: pointer;
+  outline: none;
 }
 
 .service-menu .service-item-active {
