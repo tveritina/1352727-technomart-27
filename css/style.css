@@ -400,6 +400,11 @@ ul {
 }
 
 .company-info h3 {
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
   font-size: 30px;
   line-height: 30px;
   text-transform: uppercase;
@@ -425,11 +430,6 @@ ul {
   content: "";
   background-color: #ee3643;
   margin-right: 11px;
-}
-
-.company-info img {
-  margin-top: 36px;
-  margin-bottom: 40px;
 }
 
 .company-info-button-details {
@@ -1575,6 +1575,11 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .slider-radio-buttons input:nth-child(1) {
   margin-right: 10px;
+}
+
+.map {
+  margin-top: 36px;
+  margin-bottom: 30px;
 }
 
 .map:hover {
