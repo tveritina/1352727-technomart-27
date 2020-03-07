@@ -1590,12 +1590,16 @@ input[type="number"]::-webkit-outer-spin-button {
 .modal-close {
   width: 21px;
   height: 21px;
+  font-size: 0;
   position: absolute;
   top: 9px;
   right: 9px;
   z-index: 2;
+  background-color: transparent;
   background-image: url(../img/modal-close.svg);
   cursor: pointer;
+  border: 0;
+  outline: none;
 }
 
 .universal-modal {
