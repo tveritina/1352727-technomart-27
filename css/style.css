@@ -407,6 +407,8 @@ ul {
 .company-info ul {
   font-size: 18px;
   line-height: 20px;
+  padding: 0px;
+  margin-bottom: 35px;   
 }
 
 .company-info li {
@@ -414,8 +416,13 @@ ul {
 }
 
 .company-info li::before {
-  content: "—";
-  color: #ee3643;
+  display: inline-block;
+  vertical-align: middle;
+  width: 25px;
+  height: 2px;
+  content: "";
+  background-color: #ee3643;
+  margin-right: 11px;
 }
 
 .company-info img {
