@@ -3,6 +3,7 @@ var itemCartClose = document.querySelector("#item-in-cart .modal-close");
 var buyButton = document.querySelectorAll(".buy");
 var bookmarkButton = document.querySelectorAll(".bookmark");
 var buyOrderButton = document.querySelector(".shopping-buttons .buy-order-button");
+var continueButton = document.querySelector(".shopping-buttons .shopping-continue");
 
 var bookmarksMenu = document.querySelector(".bookmarks");
 var cartMenu = document.querySelector(".cart");
@@ -30,3 +31,6 @@ itemCartClose.addEventListener("click", function () {
     itemCartModal.classList.add("visually-hidden");
 });
 
+continueButton.addEventListener("click", function () {
+    itemCartModal.classList.add("visually-hidden");
+});
