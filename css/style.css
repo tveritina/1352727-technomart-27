@@ -705,6 +705,10 @@ line-height: 18px;
   margin-bottom: 13px;
 }
 
+.filter-power legend {
+  margin-bottom: 13px;
+}
+
 .filter button {
   width: 140px;
   height: 38px;
@@ -716,7 +720,7 @@ line-height: 18px;
   line-height: 20px;
   font-family: "PT Sans", sans-serif;
   cursor: pointer;
-  margin-top: 50px;
+  margin-top: 75px;
 }
 
 .catalog-items {
