@@ -1227,10 +1227,15 @@ margin-top: 28px;
   font-size: 30px;
   line-height: 30px;
   margin: 0px;
-  margin-top: 68px;
-  margin-bottom: 40px;
+  margin-top: 66px;
+  margin-bottom: 22px;
   font-family: "Cuprum", sans-serif;
   text-transform: uppercase;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
 }
 
 .about-perforator-container p {
