@@ -59,7 +59,7 @@ ul {
   font-size: 17px;
   line-height: 42px;
   width: 100%;
-  margin-bottom: 45px;
+  margin-bottom: 48px;
 }
 
 .purchase-nav {
@@ -177,15 +177,18 @@ ul {
   color: #ee3643;
   font-size: 16px;
   line-height: 23px;
-  font-style: italic;
   margin: 0px;
-  margin-left: 53px;
-  margin-right: 55px;
+  margin-left: 55px;
+  margin-right: 80px;
+  width: 198px;
+  height: 60px;
+  font-family: Cuprum;
+  font-style: italic;
 }
 
 .contacts-nav-tel {
   color: #ee3643;
-  margin-bottom: 5px;
+  margin-bottom: 2px;
   font-size: 21px;
   line-height: 45px;
   width: 270px;
@@ -200,7 +203,7 @@ ul {
   width: 19px;
   height: 19px;
   margin-right: 40px;
-  margin-left: 15px;
+  margin-left: 8px;
   background-image: url(../img/icon-phone.svg);
   content: "";
 }
