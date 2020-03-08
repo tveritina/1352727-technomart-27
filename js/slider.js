@@ -1,10 +1,11 @@
 var firstImg = document.querySelector(".slider-list-one");
 var secondtImg = document.querySelector(".slider-list-two");
-var iconArrow = document.querySelectorAll(".slider-icon");
+var iconArrowLeft = document.querySelector(".slider-icon-left");
+var iconArrowRight = document.querySelector(".slider-icon-right");
 
 var toggleSliderOne = document.querySelector("#one");
 var toggleSliderTwo = document.querySelector("#two");
-
+var sliderToggles = document.querySelectorAll('[name="slider"]')
 
 var deliveryItem = document.querySelector(".delivery-service");
 var guaranteeItem = document.querySelector(".guarantee-service");
@@ -14,14 +15,21 @@ var deliveryMenu = document.querySelector(".service-menu button:nth-child(1)");
 var guaranteeMenu = document.querySelector(".service-menu button:nth-child(2)");
 var creditMenu = document.querySelector(".service-menu button:nth-child(3)");
 
+iconArrowLeft.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    firstImg.classList.remove("visually-hidden");
+    secondtImg.classList.add("visually-hidden");
+    sliderToggles[0].checked = true;
+});
 
-for (var i = 0; i < iconArrow.length; i++) {
-    iconArrow[i].addEventListener("click", function (evt) {
-        evt.preventDefault();
-        secondtImg.classList.toggle("visually-hidden");
-        firstImg.classList.toggle("visually-hidden");
-    });
-}
+iconArrowRight.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    firstImg.classList.add("visually-hidden");
+    secondtImg.classList.remove("visually-hidden");
+    sliderToggles[1].checked = true;
+});
+
+
 
 toggleSliderOne.addEventListener("click", function () {
     firstImg.classList.remove("visually-hidden");
