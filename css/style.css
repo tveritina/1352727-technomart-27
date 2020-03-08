@@ -752,7 +752,8 @@ ul {
 }
 
 .catalog-items li {
-  height: 318px;
+  min-height: 318px;
+  max-width: 218px;;
   display: flex;
   align-items: center;
   flex-direction: column;
