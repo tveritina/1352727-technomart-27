@@ -1254,6 +1254,7 @@ ul {
   height: 38px;
   text-align: center;
   padding: 10px;
+  padding-left: 34px;
   margin-top: 18px;
   color: white;
   position: relative;
@@ -1261,8 +1262,10 @@ ul {
   line-height: 18px;
   font-weight: bold;
   background-color: #ee3643;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   margin-left: -10px;
+  letter-spacing: 0.1;
+  font-weight: 300;
 }
 
 .arrow::after {
@@ -1287,7 +1290,6 @@ ul {
   line-height: 18px;
   font-weight: bold;
   bottom: 48px;
-  margin-left: 8px;
 }
 
 .social-button-ul {
