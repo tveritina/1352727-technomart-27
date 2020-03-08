@@ -511,6 +511,7 @@ ul {
 .footer-nav-flex {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   width: 940px;
   margin: auto;
   padding: 0px;
@@ -521,6 +522,7 @@ ul {
 .footer-nav-flex p {
   padding: 0px;
   padding-bottom: 15px;
+  max-width: 330px;
 }
 
 .footer-nav-flex a {
@@ -532,7 +534,7 @@ ul {
   color: #f1f5f7;
   font-size: 18px;
   line-height: 24px;
-  height: 193px;
+  min-height: 193px;
 }
 
 .footer-nav a:hover {
