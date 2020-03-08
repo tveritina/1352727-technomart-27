@@ -517,6 +517,11 @@ ul {
   margin-top: 0px;
 }
 
+.footer-nav-flex p {
+  padding: 0px;
+  padding-bottom: 15px;
+}
+
 .footer-nav-flex a {
   color: white;
 }
@@ -554,6 +559,7 @@ ul {
   justify-content: space-between;
   min-height: 68px;
   align-items: flex-end;
+  padding-bottom: 10px;
 }
 
 .footer-nav-second {
@@ -563,6 +569,7 @@ ul {
   justify-content: space-between;
   min-height: 40px;
   align-items: flex-start;
+  padding-bottom: 38px;
 }
 
 .footer-nav-second a,
@@ -596,6 +603,7 @@ ul {
   line-height: 28px;
   color: #f1f5f7;
   min-height: 107px;
+  padding-top: 16px;
 }
 
 .catalog-item-header {
