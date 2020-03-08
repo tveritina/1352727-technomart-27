@@ -905,7 +905,6 @@ ul {
   line-height: 30px;
   text-transform: uppercase;
   padding: 30px;
-  padding-top: 28px;
   margin: 0px;
   margin-bottom: 21px;
   font-weight: 300;
@@ -1016,6 +1015,7 @@ ul {
   margin: 0px;
   font-family: "Cuprum", sans-serif;
   text-transform: uppercase;
+  font-weight: 300;
 }
 
 .service-main p {
@@ -1085,6 +1085,7 @@ ul {
   margin: 0px;
   font-family: "Cuprum", sans-serif;
   text-transform: uppercase;
+  font-weight: 300;
 }
 
 .description-service p {
@@ -1097,6 +1098,8 @@ ul {
   bottom: 0px;
   z-index: 0;
 }
+
+
 
 .credit-service-button {
   border: none;
