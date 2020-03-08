@@ -572,6 +572,13 @@ ul {
   padding-bottom: 38px;
 }
 
+.footer-bottom-nav-develop{
+  width: 300px;
+  display: flex;
+  padding-right: 15px;
+  justify-content: space-between;
+}
+
 .footer-nav-second a,
 .footer-bottom-nav-develop a {
   color: #ffd180;
@@ -1261,9 +1268,9 @@ margin-top: 28px;
   width: 132px;
   padding: 0px;
   margin-right: 0px;
-  margin-top: 16px;
+  margin-top: 17px;
   margin-bottom: 35px;
-  margin-left: 70px;
+  margin-left: 48px;
 }
 
 .social-button {
