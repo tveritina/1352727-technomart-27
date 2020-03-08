@@ -1029,18 +1029,23 @@ margin-top: 28px;
 
 .service-menu button {
   width: 240px;
-  height: 60px;
+  height: 61px;
   background-color: #32425c;
   color: white;
   font-size: 21px;
   line-height: 30px;
+  letter-spacing: normal;
   text-align: left;
-  font-family: "Cuprum 400", sans-serif;
+  font-family: "Cuprum", sans-serif;
   padding-left: 22px;
   box-shadow: 0 1px 0px 0 #405069;
   border: 1px solid #293449;
   cursor: pointer;
   outline: none;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+
 }
 
 .service-menu .service-item-active {
