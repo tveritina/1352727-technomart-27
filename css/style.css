@@ -1032,6 +1032,9 @@ margin-top: 28px;
   position: absolute;
   left: 230px;
   top: 0px;
+  background-image: url(../img/divider.png);
+  width: 10px;
+  height: 279px;
 }
 
 .service-menu {
