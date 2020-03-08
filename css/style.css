@@ -20,10 +20,6 @@ a {
   text-decoration: none;
 }
 
-ul {
-  list-style: none;
-}
-
 .header-container {
   background-color: #f4f7f9;
   display: flex;
@@ -422,6 +418,7 @@ ul {
   padding: 0px;
   margin-bottom: 35px;
   margin-top: 25px;
+  list-style: none;
 }
 
 .company-info li {
@@ -662,6 +659,7 @@ ul {
 .filter ul {
   margin: 0px;
   padding: 0px;
+  list-style: none;
 }
 
 .divider {
@@ -1306,6 +1304,7 @@ ul {
   margin-top: 17px;
   margin-bottom: 35px;
   margin-left: 48px;
+  list-style: none;
 }
 
 .social-button {
@@ -1551,6 +1550,7 @@ input[type="number"]::-webkit-outer-spin-button {
   height: 266px;
   margin: 0px;
   padding: 0px;
+  list-style: none;
 }
 
 .promo-container-slider h3 {
@@ -1620,11 +1620,11 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .slider-radio-buttons input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
   position: relative;
   height: 10px;
   width: 10px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
   cursor: pointer;
   outline: none;
 }
