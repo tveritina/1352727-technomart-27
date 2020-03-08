@@ -671,7 +671,7 @@ line-height: 18px;
   color: #e5e5e5;
   border: 1px solid #e5e5e5;
   margin: 0px;
-  margin-bottom: 25px;
+  margin-bottom: 18px;
 }
 
 .filter h3 {
@@ -688,7 +688,6 @@ line-height: 18px;
 .filter fieldset {
   padding: 0px;
   margin: 0px;
-  margin-bottom: 20px;
   border: none;
 }
 
@@ -696,7 +695,14 @@ line-height: 18px;
   font-size: 17px;
   line-height: 30px;
   font-weight: bold;
-  margin-bottom: 20px;
+}
+
+.filter-form .filter-manufacturer {
+  margin-bottom: 13px;
+}
+
+.filter-manufacturer legend {
+  margin-bottom: 13px;
 }
 
 .filter button {
@@ -1374,13 +1380,13 @@ margin-top: 28px;
   border-bottom-color: #518534;
 }
 
-.filter-item {
+.filter-form .filter-item {
   margin: 0;
   padding: 0;
   border: none;
   width: 220px;
+margin-bottom: 23px;
 }
-
 
 .filter-item legend {
   margin-bottom: 15px;
@@ -1485,7 +1491,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .checkbox-filter-height {
-  height: 195px;
+  height: 185px;
 }
 
 .radio-filter-height {
