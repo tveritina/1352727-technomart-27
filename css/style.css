@@ -910,12 +910,12 @@ ul {
 
 .popular-items-logo {
   display: flex;
-  height: 310px;
+  min-height: 310px;
   justify-content: space-between;
   align-content: space-between;
   padding: 0px;
   margin: 0px;
-  margin-bottom: 85px;
+  margin-bottom: 65px;
   flex-wrap: wrap;
 }
 
@@ -925,6 +925,7 @@ ul {
   background-color: #ffffff;
   list-style: none;
   border: solid 1px #e5e5e5;
+  margin-bottom: 20px;
 }
 
 .popular-items-logo a {
