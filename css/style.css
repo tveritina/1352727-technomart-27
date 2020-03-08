@@ -629,11 +629,8 @@ ul {
   font-size: 30px;
   line-height: 30px;
   margin-bottom: 20px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1;
-  letter-spacing: normal;
+  font-weight: 300;
+  letter-spacing: 0.1;
 }
 
 .catalog-container {
@@ -1242,6 +1239,8 @@ ul {
   font-style: normal;
   line-height: 1;
   letter-spacing: normal;
+  font-weight: 300;
+  letter-spacing: 0.1px;
 }
 
 .about-perforator-container p {
