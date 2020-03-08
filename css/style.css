@@ -420,7 +420,7 @@ ul {
   font-size: 18px;
   line-height: 20px;
   padding: 0px;
-  margin-bottom: 35px;   
+  margin-bottom: 35px;
 }
 
 .company-info li {
@@ -572,7 +572,7 @@ ul {
   padding-bottom: 38px;
 }
 
-.footer-bottom-nav-develop{
+.footer-bottom-nav-develop {
   width: 300px;
   display: flex;
   padding-right: 15px;
@@ -590,7 +590,7 @@ ul {
 }
 
 .footer-bottom-nav p {
-line-height: 18px;
+  line-height: 18px;
 }
 
 .footer-bottom-nav-develop a:hover {
@@ -602,7 +602,6 @@ line-height: 18px;
   text-decoration: none;
   color: #ee3643;
 }
-
 
 .footer-nav-second a:active {
   text-decoration: none;
@@ -1017,8 +1016,8 @@ line-height: 18px;
   text-transform: uppercase;
 }
 
-.service-main p{
-margin-top: 28px;
+.service-main p {
+  margin-top: 28px;
 }
 
 .service-items {
@@ -1063,7 +1062,6 @@ margin-top: 28px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
-
 }
 
 .service-menu .service-item-active {
@@ -1397,7 +1395,7 @@ margin-top: 28px;
   padding: 0;
   border: none;
   width: 220px;
-margin-bottom: 23px;
+  margin-bottom: 23px;
 }
 
 .filter-item legend {
@@ -1708,6 +1706,12 @@ input[type="number"]::-webkit-outer-spin-button {
   margin-top: 48px;
   margin-bottom: 86px;
   margin-left: 80px;
+}
+
+.order-in-cart-img{
+  background-image: url(../img/modal-check.svg);
+  width: 66px; 
+  height: 66px;
 }
 
 .shopping-buttons {
