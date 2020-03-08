@@ -582,6 +582,10 @@ ul {
   color: #ffd180;
 }
 
+.footer-bottom-nav p {
+line-height: 18px;
+}
+
 .footer-bottom-nav-develop a:hover {
   text-decoration: underline;
   color: #ffd180;
@@ -591,6 +595,7 @@ ul {
   text-decoration: none;
   color: #ee3643;
 }
+
 
 .footer-nav-second a:active {
   text-decoration: none;
@@ -1255,9 +1260,10 @@ margin-top: 28px;
   justify-content: space-between;
   width: 132px;
   padding: 0px;
-  margin: 0px;
+  margin-right: 0px;
   margin-top: 16px;
-  margin-bottom: 16px;
+  margin-bottom: 35px;
+  margin-left: 70px;
 }
 
 .social-button {
