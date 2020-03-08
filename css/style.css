@@ -381,7 +381,7 @@ ul {
 
 .company-info {
   display: flex;
-  height: 530px;
+  height: 535px;
   width: 940px;
   margin: auto;
   padding-top: 75px;
@@ -902,7 +902,7 @@ line-height: 18px;
   align-content: space-between;
   padding: 0px;
   margin: 0px;
-  margin-bottom: 87px;
+  margin-bottom: 82px;
   flex-wrap: wrap;
 }
 
@@ -992,7 +992,7 @@ line-height: 18px;
 
 .service-main {
   min-height: 96px;
-  margin-top: 60px;
+  margin-top: 65px;
 }
 
 .service-main h3 {
