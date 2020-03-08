@@ -276,15 +276,15 @@ ul {
 .contacts-nav-cabinet {
   font-size: 16px;
   line-height: 18px;
-  margin-top: 10px;
-  margin-left: 70px;
+  margin-top: 7px;
+  margin-left: 50px;
 }
 
 .contacts-nav-cabinet a {
   text-decoration: underline;
   color: #32425c;
-  margin-right: 16px;
-  margin-left: 16px;
+  margin-right: 13px;
+  margin-left: 13px;
 }
 
 .contacts-nav-button:hover img,
