@@ -1381,6 +1381,11 @@ margin-top: 28px;
   width: 220px;
 }
 
+
+.filter-item legend {
+  margin-bottom: 15px;
+}
+
 .range-filter {
   width: 220px;
 }
@@ -1409,7 +1414,7 @@ margin-top: 28px;
 }
 
 .toggle-max {
-  left: 140px;
+  left: 160px;
 }
 
 .price-controls {
