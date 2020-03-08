@@ -242,6 +242,8 @@ ul {
   width: 121px;
   height: 45px;
   margin-left: 70px;
+  padding-left: 10px;
+  padding-right: 24px;
 }
 
 .login-back-icon::before {
