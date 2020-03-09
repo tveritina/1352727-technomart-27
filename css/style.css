@@ -1036,6 +1036,7 @@ a {
 
 .service-main p {
   margin-top: 28px;
+  max-width: 400px;
 }
 
 .service-items {
@@ -1087,6 +1088,18 @@ a {
   color: #32425c;
   box-shadow: none;
   border: none;
+}
+
+.delivery-service p {
+  max-width: 275px;
+}
+
+.guarantee-service p {
+  max-width: 378px;
+}
+
+.credit-service p {
+  max-width: 279px;
 }
 
 .description-service {
