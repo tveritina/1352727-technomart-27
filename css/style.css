@@ -176,7 +176,7 @@ a {
   margin: 0px;
   margin-left: 55px;
   margin-right: 70px;
-  width: 198px;
+  max-width: 198px;
   height: 60px;
   font-family: Cuprum;
   font-style: italic;
