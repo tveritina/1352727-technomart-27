@@ -127,6 +127,9 @@ a {
 
 .logo-footer {
   height: 68px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
 
 .logo:hover,
@@ -536,6 +539,7 @@ a {
   padding: 0px;
   align-items: center;
   margin-top: 0px;
+  position: relative;
 }
 
 .footer-nav p {
@@ -580,8 +584,7 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
   min-height: 68px;
-  align-items: flex-end;
-  padding-bottom: 10px;
+  padding-top: 42px;
 }
 
 .footer-nav-second {
