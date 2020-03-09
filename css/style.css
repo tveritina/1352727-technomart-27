@@ -1284,6 +1284,7 @@ a {
 .about-perforator-container p {
   margin: 0px;
   margin-bottom: 10px;
+  max-width: 911px;
 }
 
 .arrow {
