@@ -779,7 +779,7 @@ a {
 
 .catalog-items li {
   min-height: 318px;
-  max-width: 218px;
+  max-width: 220px;
   display: flex;
   align-items: center;
   flex-direction: column;
