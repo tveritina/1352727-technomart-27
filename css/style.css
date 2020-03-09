@@ -178,8 +178,9 @@ a {
   margin-right: 70px;
   max-width: 198px;
   height: 60px;
-  font-family: Cuprum;
+  font-family: "Cuprum", Arial, sans-serif;
   font-style: italic;
+  font-weight: 400;
 }
 
 .contacts-nav-tel {
@@ -322,7 +323,7 @@ a {
   font-size: 13px;
   line-height: 18px;
   text-transform: uppercase;
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
 }
 
 .bread-crumbs a:active {
@@ -409,7 +410,7 @@ a {
 .company-info p {
   font-size: 13px;
   line-height: 24px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   margin: 0px;
   margin-top: 25px;
 }
@@ -669,7 +670,7 @@ a {
   text-transform: uppercase;
   font-size: 15px;
   line-height: 20px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   width: 220px;
   margin-right: 20px;
 }
@@ -739,13 +740,13 @@ a {
   text-transform: uppercase;
   font-size: 15px;
   line-height: 20px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   cursor: pointer;
   margin-top: 75px;
 }
 
 .catalog-items {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   display: flex;
   justify-content: space-between;
   padding: 0px;
@@ -1017,7 +1018,7 @@ a {
   font-size: 13px;
   line-height: 24px;
   color: black;
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
 }
 
 .service-container {
@@ -1037,7 +1038,7 @@ a {
 .service-main h3 {
   font-size: 30px;
   margin: 0px;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 300;
 }
@@ -1080,7 +1081,7 @@ a {
   line-height: 30px;
   letter-spacing: normal;
   text-align: left;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   padding-left: 22px;
   box-shadow: 0 1px 0px 0 #405069;
   border: 1px solid #293449;
@@ -1120,7 +1121,7 @@ a {
   font-size: 36px;
   line-height: 36px;
   margin: 0px;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 300;
 }
@@ -1153,7 +1154,7 @@ a {
   text-transform: uppercase;
   font-size: 13px;
   line-height: 18px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   width: 700px;
   height: 38px;
   background-color: #f7f3ec;
@@ -1222,7 +1223,7 @@ a {
   text-transform: uppercase;
   font-size: 13px;
   line-height: 18px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1253,7 +1254,7 @@ a {
   font-size: 13px;
   line-height: 24px;
   color: black;
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
 }
 
 .about-perforator-container {
@@ -1270,7 +1271,7 @@ a {
   margin: 0px;
   margin-top: 66px;
   margin-bottom: 22px;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   text-transform: uppercase;
   font-weight: normal;
   font-stretch: normal;
@@ -1404,7 +1405,7 @@ a {
   color: white;
   font-size: 14px;
   font-weight: normal;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   line-height: 18px;
   text-decoration: none;
   text-transform: uppercase;
@@ -1864,7 +1865,7 @@ input[type="number"]::-webkit-outer-spin-button {
   font-size: 13px;
   line-height: 18px;
   color: #a9a9a9;
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   padding-left: 16px;
 }
 
