@@ -755,6 +755,7 @@ a {
   font-size: 18px;
   line-height: 20px;
   font-weight: bold;
+  max-width: 160px;
   margin: 0px;
   margin-bottom: 15px;
 }
