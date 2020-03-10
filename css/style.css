@@ -550,10 +550,13 @@ nav.main-navigation a:last-child {
   position: relative;
 }
 
-.footer-nav p {
+.footer-nav-adress {
+  display: flex;
+  flex-direction: column;
   padding: 0px;
   padding-bottom: 15px;
-  max-width: 330px;
+  width: 330px;
+  min-height: 40px;
 }
 
 .footer-nav-flex a {
@@ -1377,7 +1380,7 @@ ul.popular-items-logo li:last-child {
   margin-right: auto;
 }
 
-.popular-items-logo li{
+.popular-items-logo li {
   margin-left: 5px;
   margin-right: 10px;
 }
