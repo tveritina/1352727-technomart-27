@@ -1397,7 +1397,7 @@ a {
   display: none;
 }
 
-.catalog-items li:hover .actions {
+.catalog-items-card:hover .actions {
   display: block;
 }
 
