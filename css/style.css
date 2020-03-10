@@ -1364,6 +1364,11 @@ nav.main-navigation a:last-child {
   list-style: none;
 }
 
+.social-button-ul li{
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
 ul.social-button-ul li:last-child {
   margin-right: auto;
 }
