@@ -87,6 +87,7 @@ a {
   opacity: 30%;
   margin-right: 13px;
   display: inline-block;
+  vertical-align: middle;
   background-image: url(../img/icon-bookmark.svg);
   content: "";
 }
@@ -97,6 +98,7 @@ a {
   opacity: 30%;
   margin-right: 17px;
   display: inline-block;
+  vertical-align: middle;
   background-image: url(../img/icon-cart.svg);
   content: "";
 }
@@ -253,6 +255,7 @@ a {
   margin-right: 14px;
   opacity: 30%;
   display: inline-block;
+  vertical-align: middle;
   background-image: url(../img/icon-login.svg);
   content: "";
 }
@@ -1300,6 +1303,7 @@ a {
 
 .arrow {
   display: inline-block;
+  vertical-align: middle;
   width: 122px;
   height: 38px;
   text-align: center;
@@ -1923,6 +1927,7 @@ input[type="number"]::-webkit-outer-spin-button {
   height: 18px;
   opacity: 30%;
   display: inline-block;
+  vertical-align: middle;
   background-image: url(../img/icon-user.svg);
   content: "";
 }
