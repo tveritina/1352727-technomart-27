@@ -1309,7 +1309,7 @@ nav.main-navigation a:last-child {
 .arrow {
   display: inline-block;
   vertical-align: middle;
-  width: 122px;
+  min-width: 122px;
   height: 38px;
   text-align: center;
   padding: 10px;
