@@ -1364,6 +1364,10 @@ nav.main-navigation a:last-child {
   list-style: none;
 }
 
+ul.social-button-ul li:last-child {
+  margin-right: auto;
+}
+
 .social-button {
   display: flex;
   flex-wrap: wrap;
