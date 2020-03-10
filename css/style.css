@@ -1735,7 +1735,7 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .map {
   margin-top: 35px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .map:hover {

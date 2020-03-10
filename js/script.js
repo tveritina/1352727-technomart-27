@@ -7,7 +7,7 @@ var mapClose = document.querySelector(".map-big .modal-close");
 var feedbackClose = document.querySelector(".feedback .modal-close");
 var registrationClose = document.querySelector("#registration .modal-close");
 
-var mapImage = document.querySelector(".company-info .map");
+var mapLink = document.querySelector(".company-info .map-link");
 var feedbackButton = document.querySelector(".company-info-button-feedback");
 var registrationButton = document.querySelector(".register-back");
 
@@ -41,8 +41,9 @@ var guaranteeMenu = document.querySelector(".service-menu button:nth-child(2)");
 var creditMenu = document.querySelector(".service-menu button:nth-child(3)");
 
 // Методы для работы с модальными окнами
-if (mapImage) {
-    mapImage.addEventListener("click", function () {
+if (mapLink) {
+    mapLink.addEventListener("click", function (evt) {
+        evt.preventDefault();
         mapBig.classList.remove("visually-hidden");
     });
 };
