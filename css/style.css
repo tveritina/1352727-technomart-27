@@ -169,7 +169,7 @@ a {
 .contacts-nav {
   color: black;
   width: 940px;
-  height: 70px;
+  min-height: 70px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 40px;
@@ -183,7 +183,7 @@ a {
   margin-left: 55px;
   margin-right: 68px;
   max-width: 198px;
-  height: 60px;
+  min-height: 60px;
   font-family: "Cuprum", Arial, sans-serif;
   font-style: italic;
   font-weight: 400;
@@ -216,6 +216,7 @@ a {
   font-size: 14px;
   text-align: center;
   margin: 0px;
+  max-width: 270px;
 }
 
 .contacts-nav-button {
@@ -230,7 +231,7 @@ a {
 
 .logged-user {
   width: 299px;
-  height: 45px;
+  min-height: 45px;
   padding-left: 10px;
   padding-right: 10px;
   margin-left: 51px;
@@ -371,6 +372,10 @@ a {
   padding-left: 30px;
   padding-right: 30px;
   color: white;
+}
+
+nav.main-navigation a:last-child {
+  margin-right: auto;
 }
 
 .main-navigation a:hover {
@@ -1169,7 +1174,7 @@ a {
   line-height: 18px;
   font-family: "PT Sans", Arial, sans-serif;
   width: 700px;
-  height: 38px;
+  min-height: 38px;
   background-color: #f7f3ec;
   margin-bottom: 21px;
 }
@@ -1177,7 +1182,6 @@ a {
 .sort h3 {
   font-size: 13px;
   line-height: 18px;
-  display: inline;
   margin: 0px;
   margin-left: 20px;
   margin-right: 125px;
@@ -1185,6 +1189,7 @@ a {
 
 .sort ul {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   width: 558px;
   padding: 0px;
@@ -1561,11 +1566,11 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .checkbox-filter-height {
-  height: 185px;
+  min-height: 185px;
 }
 
 .radio-filter-height {
-  height: 66px;
+  min-height: 66px;
 }
 
 .filter-checkbox:checked + label::before {
