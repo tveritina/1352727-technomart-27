@@ -749,6 +749,10 @@ nav.main-navigation a:last-child {
   margin-bottom: 13px;
 }
 
+.filter-checkbox:focus + label {
+  outline: 1px solid blue;
+}
+
 .filter-power legend {
   margin-bottom: 13px;
 }
