@@ -1186,6 +1186,7 @@ nav.main-navigation a:last-child {
   font-family: "PT Sans", Arial, sans-serif;
   width: 700px;
   min-height: 38px;
+  height: 38px;
   background-color: #f7f3ec;
   margin-bottom: 21px;
 }
@@ -1516,6 +1517,7 @@ ul.popular-items-logo li:last-child {
   top: 31px;
   width: 20px;
   height: 20px;
+  left: 20px;
   border: 8px solid #ffffff;
   box-shadow: 0 2px 1px 0 #cfcfcf;
   border-radius: 50%;
@@ -1596,9 +1598,11 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .checkbox-filter-height {
   min-height: 185px;
+  height: 185px;
 }
 
 .radio-filter-height {
+  height: 66px;
   min-height: 66px;
 }
 
