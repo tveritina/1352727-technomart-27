@@ -17,9 +17,13 @@ if (feedbackModal) {
     var userEmail = feedbackModal.querySelector("[name=e-mail]");
     var userText = feedbackModal.querySelector("[name=text]");
     var form = feedbackModal.querySelector(".feedback-form");
-    var user = registrationModal.querySelector("[name=reg-name]");
 };
-//переменные для формы обратной связи
+
+//переменные для формы регистрации
+if (registrationModal) {
+    var userRegName = registrationModal.querySelector("[name=reg-name]");
+    var registrationForm = registrationModal.querySelector(".registration-form"); 
+};
 
 // Блок покупки и закладок
 var itemCartModal = document.querySelector("#item-in-cart");
@@ -76,12 +80,23 @@ if (feedbackModal) {
         }
     });
 };
-//Обработка формы обратной связи
+
+//Обработка формы регистрации
+if (registrationModal) {
+    registrationForm.addEventListener("submit", function(evt) {
+        if (!userRegName.value) {
+            evt.preventDefault();
+            registrationModal.classList.remove("modal-error");
+            registrationModal.offsetWidth = registrationModal.offsetWidth;
+            registrationModal.classList.add("modal-error");
+        }})
+};
 
 if (registrationButton) {
     registrationButton.addEventListener("click", function (evt) {
         evt.preventDefault();
         registrationModal.classList.remove("visually-hidden");
+        userRegName.focus();
     });
 };
 
