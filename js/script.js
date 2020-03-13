@@ -11,6 +11,16 @@ var mapLink = document.querySelector(".company-info .map-link");
 var feedbackButton = document.querySelector(".company-info-button-feedback");
 var registrationButton = document.querySelector(".register-back");
 
+//переменные для формы обратной связи
+if (feedbackModal) {
+    var userName = feedbackModal.querySelector("[name=name]");
+    var userEmail = feedbackModal.querySelector("[name=e-mail]");
+    var userText = feedbackModal.querySelector("[name=text]");
+    var form = feedbackModal.querySelector(".feedback-form");
+    var user = registrationModal.querySelector("[name=reg-name]");
+};
+//переменные для формы обратной связи
+
 // Блок покупки и закладок
 var itemCartModal = document.querySelector("#item-in-cart");
 var itemCartClose = document.querySelector("#item-in-cart .modal-close");
@@ -51,8 +61,22 @@ if (mapLink) {
 if (feedbackButton) {
     feedbackButton.addEventListener("click", function () {
         feedbackModal.classList.add("modal-show");
-    });    
+        userName.focus();
+    });
 };
+
+//Обработка формы обратной связи
+if (feedbackModal) {
+    form.addEventListener("submit", function (evt) {
+        if (!userName.value || !userEmail.value || !userText.value) {
+            evt.preventDefault();
+            feedbackModal.classList.remove("modal-error");
+            feedbackModal.offsetWidth = feedbackModal.offsetWidth;
+            feedbackModal.classList.add("modal-error");
+        }
+    });
+};
+//Обработка формы обратной связи
 
 if (registrationButton) {
     registrationButton.addEventListener("click", function (evt) {
@@ -77,7 +101,7 @@ if (feedbackClose) {
 if (registrationClose) {
     registrationClose.addEventListener("click", function () {
         registrationModal.classList.add("visually-hidden");
-    });    
+    });
 };
 
 // Методы для работы с окнами покупки
@@ -146,7 +170,7 @@ if (deliveryMenu) {
         deliveryMenu.classList.add("service-item-active");
         guaranteeMenu.classList.remove("service-item-active");
         creditMenu.classList.remove("service-item-active");
-    
+
         deliveryItem.classList.remove("visually-hidden");
         guaranteeItem.classList.add("visually-hidden");
         creditItem.classList.add("visually-hidden");
@@ -158,11 +182,11 @@ if (guaranteeMenu) {
         guaranteeMenu.classList.add("service-item-active");
         deliveryMenu.classList.remove("service-item-active");
         creditMenu.classList.remove("service-item-active");
-    
+
         deliveryItem.classList.add("visually-hidden");
         guaranteeItem.classList.remove("visually-hidden");
         creditItem.classList.add("visually-hidden");
-    });    
+    });
 };
 
 if (creditMenu) {
@@ -170,9 +194,9 @@ if (creditMenu) {
         creditMenu.classList.add("service-item-active");
         deliveryMenu.classList.remove("service-item-active");
         guaranteeMenu.classList.remove("service-item-active");
-    
+
         deliveryItem.classList.add("visually-hidden");
         guaranteeItem.classList.add("visually-hidden");
         creditItem.classList.remove("visually-hidden");
-    });    
+    });
 };
