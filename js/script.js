@@ -63,7 +63,8 @@ if (mapLink) {
 };
 
 if (feedbackButton) {
-    feedbackButton.addEventListener("click", function () {
+    feedbackButton.addEventListener("click", function (evt) {
+        evt.preventDefault();
         feedbackModal.classList.add("modal-show");
         userName.focus();
     });
